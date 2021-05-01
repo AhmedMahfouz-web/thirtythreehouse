@@ -35,11 +35,11 @@
         </div>
         <div class="grid-item">
             <img src="img/computers.png" alt="">
-            <p>Web Developing</p>
+            <p>Web Development</p>
         </div>
         <div class="grid-item">
             <img src="img/computers.png" alt="">
-            <p>Contint Creation</p>
+            <p>Content Creation</p>
         </div>
     </div>
 </div>
@@ -69,11 +69,11 @@
         </div>
         <div class="grid-item">
             <img src="img/computers.png" alt="">
-            <p>Web Developing</p>
+            <p>Web Development</p>
         </div>
         <div class="grid-item">
             <img src="img/computers.png" alt="">
-            <p>Contint Creation</p>
+            <p>Content Creation</p>
         </div>
     </div>
 </div>

@@ -7,9 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thirty Three House</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+
+    @yield('css')
 
 </head>
 
@@ -21,8 +23,8 @@
                 <div class="hamburger"></div>
             </div>
             <div class="text">
-                <h1>ThirtyThree</h1>
-                <h5>house</h5>
+                <h1><a href="/">ThirtyThree</a></h1>
+                <h5><a href="/">house</a></h5>
             </div>
         </div>
     </header>
@@ -38,25 +40,25 @@
             <p>Our Services <span class="arrow"><i class="ri-arrow-down-s-line"></i></span></p>
         </div>
         <div id="services">
-            <p><a href="services/branding">Branding</a></p>
-            <p><a href="services/ui">UI & UX</a></p>
-            <p><a href="services/packaging">Packaging</a></p>
-            <p><a href="services/motion">Motion</a></p>
-            <p><a href="services/web">Web Developing</a></p>
-            <p><a href="services/content">Content Creating</a></p>
-            <p><a href="services/script">Script Writing</a></p>
+            <p><a href="/services/branding">Branding</a></p>
+            <p><a href="/services/ui">UI & UX</a></p>
+            <p><a href="/services/packaging">Packaging</a></p>
+            <p><a href="/services/motion">Motion</a></p>
+            <p><a href="/services/web">Web Development</a></p>
+            <p><a href="/services/content">Content Creation</a></p>
+            <p><a href="/services/script">Script Writing</a></p>
         </div>
         <div id="work-btn">
             <p>Our Work <span class="arrow"><i class="ri-arrow-down-s-line"></i></span></p>
         </div>
         <div id="work">
-            <p><a href="services/branding">Branding</a></p>
-            <p><a href="services/ui">UI & UX</a></p>
-            <p><a href="services/packaging">Packaging</a></p>
-            <p><a href="services/motion">Motion</a></p>
-            <p><a href="services/web">Web Developing</a></p>
-            <p><a href="services/content">Content Creating</a></p>
-            <p><a href="services/script">Script Writing</a></p>
+            <p><a href="/work/branding">Branding</a></p>
+            <p><a href="/work/ui">UI & UX</a></p>
+            <p><a href="/work/packaging">Packaging</a></p>
+            <p><a href="/work/motion">Motion</a></p>
+            <p><a href="/work/web">Web Development</a></p>
+            <p><a href="/work/content">Content Creation</a></p>
+            <p><a href="/work/script">Script Writing</a></p>
         </div>
         <div>
             <p><a href="/contact">Contact Us</a></p>
@@ -81,12 +83,12 @@
             <p><i class="ri-subtract-fill"></i> <a href="#">UI & UX</a></p>
             <p><i class="ri-subtract-fill"></i> <a href="#">Packaging</a></p>
             <p><i class="ri-subtract-fill"></i> <a href="#">Motion</a></p>
-            <p><i class="ri-subtract-fill"></i> <a href="#">Web Developing</a></p>
+            <p><i class="ri-subtract-fill"></i> <a href="#">Web Development</a></p>
             <p><i class="ri-subtract-fill"></i> <a href="#">Content Creation</a></p>
             <p><i class="ri-subtract-fill"></i> <a href="#">Script Writing</a></p>
         </div>
 
-        <div><img src="img/33-logo.png" alt=""></div>
+        <div><img src="/img/33-logo.png" alt="Thirty Three Logo"></div>
         <p class="rights">All Rights Reserved <a href="/">Thirtythreehouse.com</a> &copy;
         </p>
     </footer>
@@ -94,8 +96,8 @@
 
 </body>
 
-<script src="js/dom-slider.js"></script>
-<script src="js/main.js"></script>
+<script src="/js/dom-slider.js"></script>
+<script src="/js/main.js"></script>
 @yield('js')
 
 </html>
