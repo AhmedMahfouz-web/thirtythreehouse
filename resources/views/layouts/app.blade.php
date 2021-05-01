@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thirty Three House</title>
 
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 
 </head>
 
@@ -86,7 +86,7 @@
             <p><i class="ri-subtract-fill"></i> <a href="#">Script Writing</a></p>
         </div>
 
-        <div><img src="{{asset('img/33-logo.png')}}" alt=""></div>
+        <div><img src="img/33-logo.png" alt=""></div>
         <p class="rights">All Rights Reserved <a href="/">Thirtythreehouse.com</a> &copy;
         </p>
     </footer>
@@ -94,8 +94,8 @@
 
 </body>
 
-<script src="{{asset('js/dom-slider.js')}}"></script>
-<script src="{{asset('js/main.js')}}"></script>
+<script src="js/dom-slider.js"></script>
+<script src="js/main.js"></script>
 @yield('js')
 
 </html>
