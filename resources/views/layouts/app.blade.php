@@ -79,13 +79,13 @@
 
         <div class="footer-services">
             <h4>Our Services</h4>
-            <p><i class="ri-subtract-fill"></i> <a href="#">Branding</a></p>
-            <p><i class="ri-subtract-fill"></i> <a href="#">UI & UX</a></p>
-            <p><i class="ri-subtract-fill"></i> <a href="#">Packaging</a></p>
-            <p><i class="ri-subtract-fill"></i> <a href="#">Motion</a></p>
-            <p><i class="ri-subtract-fill"></i> <a href="#">Web Development</a></p>
-            <p><i class="ri-subtract-fill"></i> <a href="#">Content Creation</a></p>
-            <p><i class="ri-subtract-fill"></i> <a href="#">Script Writing</a></p>
+            <p><i class="ri-subtract-fill"></i> <a href="/service/branding">Branding</a></p>
+            <p><i class="ri-subtract-fill"></i> <a href="/services/ui">UI & UX</a></p>
+            <p><i class="ri-subtract-fill"></i> <a href="/services/packaging">Packaging</a></p>
+            <p><i class="ri-subtract-fill"></i> <a href="/services/motion">Motion</a></p>
+            <p><i class="ri-subtract-fill"></i> <a href="/services/web">Web Development</a></p>
+            <p><i class="ri-subtract-fill"></i> <a href="/services/content">Content Creation</a></p>
+            <p><i class="ri-subtract-fill"></i> <a href="/services/script">Script Writing</a></p>
         </div>
 
         <div><img src="/img/33-logo.png" alt="Thirty Three Logo"></div>
