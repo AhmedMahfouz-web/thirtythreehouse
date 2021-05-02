@@ -18,28 +18,40 @@
     <div class="fix"></div>
     <div class="grid">
         <div class="grid-item">
-            <img src="img/computers.png" alt="">
-            <p>Branding</p>
+            <a href="/services/branding">
+                <img src="img/computers.png" alt="">
+                <p>Branding</p>
+            </a>
         </div>
         <div class="grid-item">
-            <img src="img/computers.png" alt="">
-            <p>UI & UX</p>
+            <a href="/services/ui">
+                <img src="img/computers.png" alt="">
+                <p>UI & UX</p>
+            </a>
         </div>
         <div class="grid-item">
-            <img src="img/computers.png" alt="">
-            <p>Packaging</p>
+            <a href="/services/packaging">
+                <img src="img/computers.png" alt="">
+                <p>Packaging</p>
+            </a>
         </div>
         <div class="grid-item">
-            <img src="img/computers.png" alt="">
-            <p>Motion Graphics</p>
+            <a href="/services/motion">
+                <img src="img/computers.png" alt="">
+                <p>Motion Graphics</p>
+            </a>
         </div>
         <div class="grid-item">
-            <img src="img/computers.png" alt="">
-            <p>Web Development</p>
+            <a href="/services/web">
+                <img src="img/computers.png" alt="">
+                <p>Web Development</p>
+            </a>
         </div>
         <div class="grid-item">
-            <img src="img/computers.png" alt="">
-            <p>Content Creation</p>
+            <a href="/services/content">
+                <img src="img/computers.png" alt="">
+                <p>Content Creation</p>
+            </a>
         </div>
     </div>
 </div>

@@ -251,6 +251,10 @@ nav #services p, nav #work p{
     text-align: center;
 }
 
+.grid-item a{
+    text-decoration: none;
+}
+
 .grid-item img{
     width: 100%;
     border-radius: 10px;
