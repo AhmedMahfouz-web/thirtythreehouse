@@ -32,3 +32,7 @@ Route::get('/services/packaging', function () {
 Route::get('/services/motion', function () {
     return view('services.motion');
 });
+
+Route::get('/services/web', function () {
+    return view('services.web');
+});

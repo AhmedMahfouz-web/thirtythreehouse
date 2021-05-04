@@ -25,9 +25,14 @@
 .header h1{
     color: #212121;
     font-size: 52px;
-    margin: 15px 0;
+    margin: 15px 0 0px;
     font-family: 'FreightSansProBold';
     text-transform: uppercase;
+}
+
+.header h1.web{
+    font-size: 40px;
+    line-height: 1;
 }
 
 .header-motion h1{
@@ -36,7 +41,7 @@
 }
 
 .header p {
-    margin: 15px 0;
+    margin: 0px 0 20px;
     color: #212121;
 }
 
@@ -75,9 +80,9 @@
 }
 
 .grid-ui .grid-item .right{
-    float: right;
-    width: 41%;
-    height: 100%;
+    /* float: right; */
+    width: 100%;
+    /* height: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,22 +91,23 @@
 
 
 .grid-ui .grid-item .left{
-    float: left;
-    width: 57%;
-    height: 100%;
+    /* float: left; */
+    /* width: 49%; */
+    /* height: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 10px;
 }
-
+/* 
 .grid-ui .grid-item:nth-child(even) .right{
     float: left;
 }
 
 .grid-ui .grid-item:nth-child(even) .left{
     float: right;
-}
+} */
 
 
 #myVideo{
