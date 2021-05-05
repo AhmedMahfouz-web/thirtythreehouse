@@ -79,14 +79,18 @@
 
         <div class="footer-contact">
             <h4>Contact Us</h4>
-            <p><a href="https://www.facebook.com/Thirtythreehouse/"><i class="ri-facebook-circle-line"></i></a></p>
-            <p><a href="#"><i class="ri-whatsapp-line"></i></a></p>
-            <p><a href="https://www.instagram.com/thirtythreehouse/"><i class="ri-instagram-line"></i></a></p>
-            <p><a href="#"><i class="ri-snapchat-line"></i></a></p>
-            <p><a href="#"><i class="ri-telegram-line"></i></a></p>
+            <div class="links">
+                <p><a href="https://www.facebook.com/Thirtythreehouse/"><img src="/img/FB.png" alt="Facebook link"></a>
+                </p>
+                <p><a href="#"><img src="/img/TW.png" alt="Twietter link"></a></p>
+                <p><a href="https://www.instagram.com/thirtythreehouse/"><img src="/img/IG.png" alt="Intagram link"></a>
+                </p>
+                <p><a href="#"><img src="/img/WA.png" alt="Whatsapp link"></a></p>
+                <p><a href="#"><img src="/img/LI.png" alt="LinkeIn link"></a></p>
+            </div>
         </div>
 
-        <div><img src="/img/33-logo.png" alt="Thirty Three Logo"></div>
+        <div><img src="/img/logo-33-BLACK-PNG-800800.png" alt="Thirty Three Logo"></div>
         <p class="rights">All Rights Reserved <a href="/">Thirtythreehouse.com</a> &copy;
         </p>
     </footer>

@@ -224,6 +224,7 @@ nav #services p, nav #work p{
     margin-top: 0;
     text-transform: uppercase;
     font-size: 30px;
+    font-family: 'FreightSansProBold';
 }
 
 @media only screen and (min-width: 360px){
@@ -305,12 +306,18 @@ footer .footer-contact{
     box-sizing: border-box;
 }
 
-footer .footer-contact p {
-    display: inline-block;
+footer .footer-contact .links{
+    display: flex;
     width: fit-content;
-    margin-top: 20px;
+    margin: 0;
+}
+
+footer .footer-contact p {
+    /* display: inline-block; */
+    width: fit-content;
+    margin: 20px 0px;
     box-sizing: border-box;
-    font-size: 28px;
+
 }
 
 footer .footer-contact a{
@@ -318,6 +325,28 @@ footer .footer-contact a{
     margin-left: 20px;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+footer .footer-contact img{
+    width: 35px;
+}
+
+@media only screen and (min-width: 360px){
+    footer .footer-contact img{
+        width: 40px;
+    }    
+}
+
+@media only screen and (min-width: 375px){
+    footer .footer-contact img{
+        width: 45px;
+    }    
+}
+
+@media only screen and (min-width: 411px){
+    footer .footer-contact img{
+        width: 50px;
+    }    
 }
 
 footer div{
