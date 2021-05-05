@@ -77,15 +77,13 @@
             </p>
         </div>
 
-        <div class="footer-services">
-            <h4>Our Services</h4>
-            <p><i class="ri-subtract-fill"></i> <a href="/service/branding">Branding</a></p>
-            <p><i class="ri-subtract-fill"></i> <a href="/services/ui">UI & UX</a></p>
-            <p><i class="ri-subtract-fill"></i> <a href="/services/packaging">Packaging</a></p>
-            <p><i class="ri-subtract-fill"></i> <a href="/services/motion">Motion</a></p>
-            <p><i class="ri-subtract-fill"></i> <a href="/services/web">Web Development</a></p>
-            <p><i class="ri-subtract-fill"></i> <a href="/services/content">Content Creation</a></p>
-            <p><i class="ri-subtract-fill"></i> <a href="/services/script">Script Writing</a></p>
+        <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p><a href="https://www.facebook.com/Thirtythreehouse/"><i class="ri-facebook-circle-line"></i></a></p>
+            <p><a href="#"><i class="ri-whatsapp-line"></i></a></p>
+            <p><a href="https://www.instagram.com/thirtythreehouse/"><i class="ri-instagram-line"></i></a></p>
+            <p><a href="#"><i class="ri-snapchat-line"></i></a></p>
+            <p><a href="#"><i class="ri-telegram-line"></i></a></p>
         </div>
 
         <div><img src="/img/33-logo.png" alt="Thirty Three Logo"></div>

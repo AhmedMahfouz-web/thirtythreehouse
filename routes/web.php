@@ -36,3 +36,7 @@ Route::get('/services/motion', function () {
 Route::get('/services/web', function () {
     return view('services.web');
 });
+
+Route::get('/about', function () {
+    return view('pages.about');
+});
