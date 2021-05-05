@@ -24,15 +24,15 @@
             <li>- Logo pattern</li>
         </ul>
         <h2>Additional option:</h2>
-        <input type="checkbox" id="fo" name="fo" value="Guidlines">
+        <input type="checkbox" id="fo" name="fo" value="Guidlines" price="50">
         <label for="fo"> Guidlines <span class="price">(+50 $)</span></label><br>
-        <input type="checkbox" id="so" name="so" value="Motion">
+        <input type="checkbox" id="so" name="so" value="Motion" price="30">
         <label for="so"> Motion intro <span class="price">(+30 $)</span></label><br>
-        <input type="checkbox" id="to" name="to" value="Identity">
+        <input type="checkbox" id="to" name="to" value="Identity" price="50">
         <label for="to"> Visual identity <span class="price">(+50 $)</span></label><br>
 
         <p class="old-price" id="old-price">215</p>
-        <p class="current-price" id="current-price">120 </p> <span class="dollar">$</span>
+        <p class="current-price" id="current-price">120</p> <span class="dollar">$</span>
 
         <p>Buy it via</p>
         <a href="#" class="btn"><img src="/img/whatsapp.png" alt="whatsapp"> Whatsapp</a>
@@ -56,4 +56,8 @@
         </div>
     </div>
 </div>
+@endsection
+
+@section('js')
+<script src="/js/services.js"></script>
 @endsection
