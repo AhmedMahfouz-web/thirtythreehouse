@@ -6,7 +6,6 @@
     <div><img src="img/slider-1-op.jpg" alt=""></div>
     <div><img src="img/slider-2-op.jpg" alt=""></div>
     <div><img src="img/slider-3-op.jpg" alt=""></div>
-
 </div>
 <div class="fix"></div>
 
