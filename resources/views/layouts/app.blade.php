@@ -7,9 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thirty Three House</title>
 
+    <link rel="icon" href="/img/logo-33-2-browser-50x50.png">
+
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/owl.carousel.min.css">
 
     @yield('css')
 

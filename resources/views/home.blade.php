@@ -59,33 +59,45 @@
 <div class="grid-container">
     <div class="grid-header">
         <h1>Our Works</h1>
-        <a href="/services">See More</a>
+        <a href="/works">See More</a>
     </div>
     <div class="fix"></div>
     <div class="grid">
         <div class="grid-item">
-            <img src="img/computers.png" alt="">
-            <p>Branding</p>
+            <a href="/work/branding">
+                <img src="img/computers.png" alt="">
+                <p>Branding</p>
+            </a>
         </div>
         <div class="grid-item">
-            <img src="img/computers.png" alt="">
-            <p>UI & UX</p>
+            <a href="/work/ui">
+                <img src="img/computers.png" alt="">
+                <p>UI & UX</p>
+            </a>
         </div>
         <div class="grid-item">
-            <img src="img/computers.png" alt="">
-            <p>Packaging</p>
+            <a href="/work/packaging">
+                <img src="img/computers.png" alt="">
+                <p>Packaging</p>
+            </a>
         </div>
         <div class="grid-item">
-            <img src="img/computers.png" alt="">
-            <p>Motion Graphics</p>
+            <a href="/work/motion">
+                <img src="img/computers.png" alt="">
+                <p>Motion Graphics</p>
+            </a>
         </div>
         <div class="grid-item">
-            <img src="img/computers.png" alt="">
-            <p>Web Development</p>
+            <a href="/work/web">
+                <img src="img/computers.png" alt="">
+                <p>Web Development</p>
+            </a>
         </div>
         <div class="grid-item">
-            <img src="img/computers.png" alt="">
-            <p>Content Creation</p>
+            <a href="/work/content">
+                <img src="img/computers.png" alt="">
+                <p>Content Creation</p>
+            </a>
         </div>
     </div>
 </div>
