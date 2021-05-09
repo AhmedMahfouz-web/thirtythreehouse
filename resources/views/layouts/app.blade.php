@@ -14,6 +14,20 @@
 
     @yield('css')
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZD3PLDP2KK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZD3PLDP2KK');
+
+    </script>
+
 </head>
 
 <body>

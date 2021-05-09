@@ -23,7 +23,7 @@
             <li>- Color palette</li>
             <li>- Logo pattern</li>
         </ul>
-        <h2>Additional option:</h2>
+        <h2>Additional options:</h2>
         <input type="checkbox" id="fo" name="fo" value="Guidlines" price="50">
         <label for="fo"> Guidlines <span class="price">(+50 $)</span></label><br>
         <input type="checkbox" id="so" name="so" value="Motion" price="30">
