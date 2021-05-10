@@ -14,7 +14,7 @@
         padding-bottom: 0 !important;
         border-top-width: 0 !important;
         border-bottom-width: 0 !important;
-        margin-top: -10px !important;
+        margin-top: 0px !important;
         margin-bottom: 0 !important;
         overflow: hidden !important;
       }

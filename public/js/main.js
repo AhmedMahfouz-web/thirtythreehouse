@@ -47,3 +47,56 @@ work_btn.addEventListener('click', function(){
         slideToggle({element: services, slideSpeed: 500})
     }
 })
+
+let gridServices = document.querySelectorAll('.grid-services');
+let gridWork = document.querySelectorAll('.grid-work');
+let nextServices = document.getElementById('next-services');
+let prevServices = document.getElementById('prev-services');
+let nextWork = document.getElementById('next-work');
+let prevWork = document.getElementById('prev-work');
+
+nextServices.addEventListener('click', function(){
+    if(!this.classList.contains('disabled') && !this.hasAttribute('disabled')){
+        this.classList.add('disabled');
+        this.setAttribute('disabled', '');
+        prevServices.classList.remove('disabled');
+        prevServices.removeAttribute('disabled');
+        gridServices.forEach(one => {
+            one.style.left = '-217%'; 
+         });    }
+})
+
+prevServices.addEventListener('click', function(){
+    if(!this.classList.contains('disabled') && !this.hasAttribute('disabled')){
+        this.classList.add('disabled');
+        this.setAttribute('disabled', '');
+        nextServices.classList.remove('disabled');
+        nextServices.removeAttribute('disabled');
+        gridServices.forEach(one => {
+           one.style.left = '0%'; 
+        });
+    }
+})
+
+nextWork.addEventListener('click', function(){
+    if(!this.classList.contains('disabled') && !this.hasAttribute('disabled')){
+        this.classList.add('disabled');
+        this.setAttribute('disabled', '');
+        prevWork.classList.remove('disabled');
+        prevWork.removeAttribute('disabled');
+        gridWork.forEach(one => {
+            one.style.left = '-217%'; 
+         });    }
+})
+
+prevWork.addEventListener('click', function(){
+    if(!this.classList.contains('disabled') && !this.hasAttribute('disabled')){
+        this.classList.add('disabled');
+        this.setAttribute('disabled', '');
+        nextWork.classList.remove('disabled');
+        nextWork.removeAttribute('disabled');
+        gridWork.forEach(one => {
+           one.style.left = '0%'; 
+        });
+    }
+})

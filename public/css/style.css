@@ -115,6 +115,7 @@ nav{
 nav div{
     margin: 15px 0px;
     width: 100%;
+    position: relative;
 }
 
 nav div a, nav div p{
@@ -124,16 +125,17 @@ nav div a, nav div p{
 
 nav div p{
     margin: 0;
-    position: relative;
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 nav div .arrow{
     position: absolute;
-    top: 60%;
-    right: -5%;
+    top: 20px;
+    right: 0%;
     transition: 0.3s;
     transform: translate(0%, -50%);
+    color: #fafafa;
+    font-size: 1.5em;
 }
 
 nav #services, nav #work {
@@ -224,6 +226,7 @@ nav #services p, nav #work p{
     margin-top: 0;
     text-transform: uppercase;
     font-size: 30px;
+    font-size: 1.7  em;
     font-family: 'FreightSansProBold';
 }
 
@@ -233,17 +236,8 @@ nav #services p, nav #work p{
     }    
 }
 
-.grid-header a{
-    float: right;
-    width: 90px;
-    text-align: center;
-    padding: 5px;
-    background-color: #212121;
-    cursor: pointer;
-    border-radius: 50px;
-    color: #fafafa;
-    margin-top: 5px;
-    text-decoration: none;
+.grid-header .btns{
+    display: none;
 }
 
 .grid{
@@ -284,7 +278,7 @@ footer{
 }
 
 footer .footer-about{
-    margin: 0 5%;
+    margin: 0 0 0 5%;
     box-sizing: border-box;
 }
 
@@ -361,7 +355,7 @@ footer img{
     margin: auto;
 }
 
-footer .rights{    
+.rights{    
     padding: 10px;
     width:100%;
     text-align: center;
@@ -373,7 +367,246 @@ footer .rights{
 
 }
 
-footer .rights a{
+.rights a{
     color: #f5f5f7;
     cursor: pointer;
+}
+
+
+@media only screen and (min-width: 768px){
+    
+    
+    nav{
+        width: 50%;
+        padding: 2% 5%;
+    }
+    
+    nav div{
+        margin: 20px 0px;
+    }
+    
+    nav div .arrow{
+        right: 0%;
+    }
+    
+    nav #services p, nav #work p{
+        font-size: 1.5em;
+    }
+
+}
+
+
+@media only screen and (min-width: 1024px){
+    
+    header .text{
+        width: fit-content;
+        margin-left: 5%;
+    }
+
+    header .hamburger{
+        display: none;
+    }
+    nav{
+        width: 65%;
+        position: fixed;
+        top: 0px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0;
+        left: unset;
+        text-align: right;
+        right: 5%;
+        background-color: #111111;
+    }
+    
+    nav div{
+        margin:0px ;
+        display: inline-block;
+        padding: 0 25px 0 0;
+        margin-right: 5px;
+        width: fit-content;
+    }
+    nav div:last-child{
+        padding: 0;
+    }
+    
+    nav #services-btn, nav #work-btn{
+        position: relative;
+        height: fit-content;
+        cursor: pointer;
+        margin-right: 25px;
+    }
+    
+    nav div p{
+        width: fit-content;
+        position: relative;
+        font-size: 1.3em;
+    }
+
+    nav div p::before{
+        content: '';
+        height: 3px;
+        width: 0%;
+        transition: 0.3s;
+        position: absolute;
+        bottom: -10%;
+        background-color: #f5f5f7;
+        
+    }
+
+    nav div p:hover::before{
+        width: 100%;
+    }
+
+    nav div .arrow{
+        right: 0px;
+        top: 18px;
+        font-size: 1.25em;
+    }
+    
+    nav #services, nav #work {
+        position: absolute;
+        top: 110%;
+        margin: 0;
+        width: 140px;
+        left: 0;
+        background-color: #111111;
+        padding: 20px;
+        border-radius: 15px;
+        text-align: left;
+
+    }
+    
+    nav #services p, nav #work p{
+        font-size: 1.15em;
+    }
+    
+    .owl-carousel{
+        height: 350px;
+    }
+   
+    .owl-carousel div img{
+        height: 350px !important;
+    }
+
+    .owl-prev{
+        width: 10%;
+    }
+    
+    .owl-next{
+        width: 10%;
+    }
+    
+    .grid-container{
+        margin-top: 15px;
+    }
+
+    .grid-header .btns{
+        float: right;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .grid-header .btns button{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: 2px solid #212121;
+        background: none;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 7px 0;
+        margin: 0 3px 0 0;
+        cursor: pointer;
+    }
+    
+    .grid-header .btns button:last-child{
+        margin: 0 0 0 3px;
+    }
+    
+    .grid-header .btns button.disabled{
+        border-color: #c7c3bf;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 23.5% 23.5% 23.5% 23.5% 23.5% 23.5%;
+        overflow-x: hidden;
+        grid-column-gap: 2%;
+        grid-row-gap: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .grid .grid-item{
+        position: relative;
+        left: 0%;
+        transition: 1s ease;
+    }
+
+    footer{
+        padding-left: 5%;
+        padding-right: 5%;
+        display: grid;
+        grid-template-columns: 31.33% 31.33% 31.33%;
+        grid-column-gap: 3%;
+    }
+
+    footer .footer-contact{
+        width: fit-content;
+        margin: auto;
+    }
+
+    footer .footer-contact a{
+        margin: 0;
+        margin-right: 5px;
+    }
+
+    footer .footer-contact img{
+        width: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 1566px){
+    .content{
+        max-width: 1566px;
+        margin: auto;
+    }
+    .content-nav{
+        width: 1366px;
+        position: fixed;
+        top: 0%;
+        right: 50%;
+        transform: translate(50%, 0%);
+        z-index: 6;
+    }
+    nav{
+        width: fit-content;
+        top: 0px;
+        padding: 0;
+        right: -1.5%;
+        left: unset;
+    }
+    .owl-carousel{
+        width: 90% !important;
+        margin: auto;
+    }
+    footer{
+        padding-left: 0;
+        padding-right: 0;
+        display: block;
+    }
+    .content-footer{
+        padding-left: 5%;
+        padding-right: 5%;
+        display: grid;
+        grid-template-columns: 31.33% 31.33% 31.33%;
+        grid-column-gap: 3%;
+    }
 }
