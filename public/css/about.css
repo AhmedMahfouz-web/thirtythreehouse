@@ -1,10 +1,10 @@
-.content img{
+.content-about img{
     width: 100% !important;
 }
-.content h1{
+.content-about h1{
     margin: 5%;
 }
 
-.content p{
+.content-about p{
     margin: 5%;
 }

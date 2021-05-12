@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ app()->getLocale() }}">
 
 <head>
     <meta charset="UTF-8">
@@ -56,37 +56,37 @@
     <div class="content-nav">
         <nav id="nav">
             <div>
-                <p><a href="/">Home</a></p>
+                <p><a href="/">@lang('site.home')</a></p>
             </div>
             <div>
-                <p><a href="/about">About</a></p>
+                <p><a href="/about">@lang('site.about')</a></p>
             </div>
             <div id="services-btn">
-                <p>Our Services </p><span class="arrow"><i class="ri-arrow-down-s-line"></i></span>
+                <p>@lang('site.services') </p><span class="arrow"><i class="ri-arrow-down-s-line"></i></span>
                 <div id="services">
-                    <p><a href="/services/branding">Branding</a></p>
-                    <p><a href="/services/ui">UI & UX</a></p>
-                    <p><a href="/services/packaging">Packaging</a></p>
-                    <p><a href="/services/motion">Motion</a></p>
-                    <p><a href="/services/web">Web Development</a></p>
-                    <p><a href="/services/content">Content Creation</a></p>
-                    <p><a href="/services/script">Script Writing</a></p>
+                    <p><a href="/services/branding">@lang('site.branding')</a></p>
+                    <p><a href="/services/ui">@lang('site.ui')</a></p>
+                    <p><a href="/services/packaging">@lang('site.packaging')</a></p>
+                    <p><a href="/services/motion">@lang('site.motion')</a></p>
+                    <p><a href="/services/web">@lang('site.web')</a></p>
+                    <p><a href="/services/content">@lang('site.content_creation')</a></p>
+                    <p><a href="/services/script">@lang('site.script')</a></p>
                 </div>
             </div>
             <div id="work-btn">
-                <p>Our Work </p><span class="arrow"><i class="ri-arrow-down-s-line"></i></span>
+                <p>@lang('site.work') </p><span class="arrow"><i class="ri-arrow-down-s-line"></i></span>
                 <div id="work">
-                    <p><a href="/work/branding">Branding</a></p>
-                    <p><a href="/work/ui">UI & UX</a></p>
-                    <p><a href="/work/packaging">Packaging</a></p>
-                    <p><a href="/work/motion">Motion</a></p>
-                    <p><a href="/work/web">Web Development</a></p>
-                    <p><a href="/work/content">Content Creation</a></p>
-                    <p><a href="/work/script">Script Writing</a></p>
+                    <p><a href="/work/branding">@lang('site.branding')</a></p>
+                    <p><a href="/work/ui">@lang('site.ui')</a></p>
+                    <p><a href="/work/packaging">@lang('site.packaging')</a></p>
+                    <p><a href="/work/motion">@lang('site.motion')</a></p>
+                    <p><a href="/work/web">@lang('site.web')</a></p>
+                    <p><a href="/work/content">@lang('site.content_creation')</a></p>
+                    <p><a href="/work/script">@lang('site.script')</a></p>
                 </div>
             </div>
             <div>
-                <p><a href="/contact">Contact Us</a></p>
+                <p><a href="/contact">@lang('site.contact')</a></p>
             </div>
         </nav>
     </div>

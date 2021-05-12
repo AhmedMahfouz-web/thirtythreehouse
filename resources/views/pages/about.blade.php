@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<div class="content">
+<div class="content-about">
     <img src="/img/company.jpg" alt="company">
     <h1>About Us</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos praesentium voluptatum modi corrupti at laboriosam

@@ -10,6 +10,8 @@
 <div class="fix"></div>
 
 <div class="grid-container">
+    <iframe src="https://my.spline.design/untitled-8b206208e8367755d3ffacb567f8f8bb" frameborder="0" width="100%"
+        height='100%'></iframe>
     <div class="grid-header">
         <h1>Our Services</h1>
         {{-- <a href="/services">See More</a> --}}
