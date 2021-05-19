@@ -66,7 +66,7 @@
 }
 
 .offer{
-    padding: 0 5%;
+    padding: 15px 5%;
     font-family: 'DM Sans', sans-serif;
     color: #212121;
 }
@@ -74,6 +74,10 @@
 .offer h2{
     margin-bottom: 0;
     color: #212121;
+}
+
+.offer p:first-child{
+    font-size: 1.1em;
 }
 
 .offer ul{
@@ -114,21 +118,26 @@
 }
 
 .offer .btn{
-    width: 130px;
-    height: 40px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fafafa;
     border: none;
+    width: fit-content;
     text-decoration: none;
-    background-color: #30bf39;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 .offer .btn img{
-    height: 30px;
+    margin-top: 10px;
+    height: 50px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.offer .btn.active img{
+    filter: grayscale(0%);
 }
 
 .grid-container{
@@ -146,4 +155,62 @@
     text-align: left;
     margin: 0;
     /* font-size: 12px; */
+}
+
+.privacy-text{
+    font-size: 0.8em;
+}
+
+@media only screen and (min-width: 375px){
+    .privacy-text{
+        font-size: 0.9em;
+    } 
+}
+
+@media only screen and (min-width: 411px){
+    .privacy-text{
+        font-size: 0.95em;
+    } 
+}
+
+@media only screen and (min-width: 414px){
+    .privacy-text{
+        font-size: 1em;
+    } 
+}
+
+.toast{
+    width: 80%;
+    background: rgba(224, 224, 224, 0.7);
+    position: fixed;
+    bottom: -100%;
+    right: 50%;
+    transform: translate(50%, 0);
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-weight: bold;
+    z-index: 5;
+    transition: 0.5s;
+    backdrop-filter: blur(3px);
+}
+
+.toast.active{
+    bottom: 5%;
+}
+
+.toast p{
+    text-align: left;
+    filter: none;
+}
+
+.blue{
+    color: rgb(33, 81, 211);
+}
+
+@media only screen and (min-width: 768px){
+    .toast{
+        width: fit-content;
+    }
 }

@@ -18,6 +18,10 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/owl.carousel.min.css">
 
+    @if (app()->getLocale() == 'ar')
+    <link rel="stylesheet" href="/css/style_ar.css">
+    @endif
+
     @yield('css')
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -36,7 +40,9 @@
 
 </head>
 
-<body>
+<body id="body" @if (app()->getLocale() == 'ar')
+    data="ar"
+    @endif>
 
     <header>
         <div class="content">
@@ -44,14 +50,24 @@
                 <div id="icon">
                     <div class="hamburger"></div>
                 </div>
+
+                <div class="lang">
+                    @if (app()->getLocale() == 'ar')
+                    <a href="/locale/en">en</a>
+                    @else
+                    <a href="/locale/ar">ar</a>
+                    @endif
+                </div>
+
                 <div class="text">
                     <h1><a href="/">ThirtyThree</a></h1>
                     <h5><a href="/">house</a></h5>
                 </div>
             </div>
         </div>
+
     </header>
-    <div class="fix"></div>
+
 
     <div class="content-nav">
         <nav id="nav">
@@ -69,7 +85,7 @@
                     <p><a href="/services/packaging">@lang('site.packaging')</a></p>
                     <p><a href="/services/motion">@lang('site.motion')</a></p>
                     <p><a href="/services/web">@lang('site.web')</a></p>
-                    <p><a href="/services/content">@lang('site.content_creation')</a></p>
+                    <p><a href="/services/content-creation">@lang('site.content_creation')</a></p>
                     <p><a href="/services/script">@lang('site.script')</a></p>
                 </div>
             </div>
@@ -81,8 +97,6 @@
                     <p><a href="/work/packaging">@lang('site.packaging')</a></p>
                     <p><a href="/work/motion">@lang('site.motion')</a></p>
                     <p><a href="/work/web">@lang('site.web')</a></p>
-                    <p><a href="/work/content">@lang('site.content_creation')</a></p>
-                    <p><a href="/work/script">@lang('site.script')</a></p>
                 </div>
             </div>
             <div>
@@ -98,7 +112,7 @@
     <footer>
         <div class="content content-footer">
             <div class="footer-about">
-                <h4>About Us</h4>
+                <h4>@lang('site.about_us')</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a orci viverra, hendrerit felis ac,
                     rutrum
                     orci. Nullam tristique at tortor sit amet ultrices. Vivamus mauris eros, suscipit vulputate nisl.
@@ -106,7 +120,7 @@
             </div>
 
             <div class="footer-contact">
-                <h4>Contact Us</h4>
+                <h4>@lang('site.contact')</h4>
                 <div class="links">
                     <p><a href="https://www.facebook.com/Thirtythreehouse/"><img src="/img/FB.png"
                                 alt="Facebook link"></a>

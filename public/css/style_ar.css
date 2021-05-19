@@ -1,0 +1,80 @@
+body{
+    direction: rtl;
+}
+
+header #icon{
+    left: 0%;
+    right: 5%;
+}
+
+.lang{
+    left: 5%;
+    right: unset;
+}
+
+nav{
+    right: -65%;
+    left: 0;
+}
+
+nav div .arrow{
+    position: absolute;
+    left: 0%;
+    right: unset;
+    transition: 0.3s;
+    transform: translate(0%, -50%);
+    color: #fafafa;
+    font-size: 1.5em;
+}
+
+.owl-carousel{
+    direction: ltr;
+}
+
+
+@media only screen and (min-width: 1024px){
+    
+    header .text{
+        width: fit-content;
+        margin-right: 5%;
+    }
+
+    nav{
+        right: unset;
+        left: calc(5% + 40px);
+    }
+    
+    nav div{
+        padding: 0 0 0 25px;
+        margin-left: 5px;
+        margin-right: 0;
+    }
+    
+    nav #services-btn, nav #work-btn{
+        margin-left: 25px;
+        margin-right: 0;
+    }
+    
+    nav #services, nav #work {
+        left: unset;
+        right: 0;
+
+    }
+    
+    nav div .arrow{
+        right: unset;
+        left: 0;
+        top: 18px;
+        font-size: 1.25em;
+    }
+
+    .grid-header .btns{
+        float: left;
+        direction: ltr;
+    }
+
+    .grid .grid-item{
+        left: unset;
+        right: 0;
+    }
+}

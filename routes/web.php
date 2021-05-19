@@ -69,3 +69,7 @@ Route::get('/services/motion', function () {
 Route::get('/services/web', function () {
     return view('services.web');
 });
+
+Route::get('/services/content-creation', function () {
+    return view('services.content');
+});

@@ -100,6 +100,27 @@ header h1 a, header h5 a{
     text-decoration: none;
 }
 
+.lang{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 40px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -4px;
+}
+
+.lang a{
+    color: #f5f5f7;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
 nav{
     width: 65%;
     background-color: #111111f1;
@@ -278,7 +299,7 @@ footer{
 }
 
 footer .footer-about{
-    margin: 0 0 0 5%;
+    margin: 0 5% 0;
     box-sizing: border-box;
 }
 
@@ -419,7 +440,7 @@ footer img{
         padding: 0;
         left: unset;
         text-align: right;
-        right: 5%;
+        right: calc(5% + 40px);
         background-color: #111111;
     }
     
@@ -502,7 +523,7 @@ footer img{
     }
     
     .grid-container{
-        margin-top: 15px;
+        margin-top: 35px;
     }
 
     .grid-header .btns{
@@ -552,6 +573,8 @@ footer img{
     footer{
         padding-left: 0;
         padding-right: 0;
+        padding-top: 3%;
+        padding-bottom: 3%;
         display: block;
     }
     .content-footer{

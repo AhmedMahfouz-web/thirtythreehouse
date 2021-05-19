@@ -11,14 +11,14 @@
 
 <div class="container">
     <div class="header">
-        <h1>Branding</h1>
+        <h1>Motion</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
             molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
             numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
             optio, eaque rerum! Provident similique accusantium nemo autem.</p>
     </div>
     <div class="offer">
-        <p>@lang('site.branding_intro')</p>
+        <p>@lang('site.motion_intro')</p>
         <h2>Service contains:</h2>
         <ul>
             <li>- Logo design</li>
@@ -51,22 +51,38 @@
         </div>
         <div class="grid">
             <div class="grid-item">
-                <img src="/img/img2.jpg" alt="">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+                        src="https://player.vimeo.com/video/49659957?color=ffffff&byline=0&portrait=0"
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
                 <h3 class="title">Untitled</h3>
                 <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,</p>
             </div>
             <div class="grid-item">
-                <img src="/img/img3.jpg" alt="">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+                        src="https://player.vimeo.com/video/49659957?color=ffffff&byline=0&portrait=0"
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
                 <h3 class="title">Untitled</h3>
                 <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,</p>
             </div>
             <div class="grid-item">
-                <img src="/img/img4.jpg" alt="">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+                        src="https://player.vimeo.com/video/49659957?color=ffffff&byline=0&portrait=0"
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
                 <h3 class="title">Untitled</h3>
                 <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,</p>
             </div>
             <div class="grid-item">
-                <img src="/img/img5.jpg" alt="">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+                        src="https://player.vimeo.com/video/49659957?color=ffffff&byline=0&portrait=0"
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
                 <h3 class="title">Untitled</h3>
                 <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,</p>
             </div>

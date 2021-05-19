@@ -2,6 +2,11 @@
 
 @section('css')
 <link rel="stylesheet" href="/css/work.css">
+
+@if (app()->getLocale())
+<link rel="stylesheet" href="/css/work_ar.css">
+@endif
+
 @endsection
 
 @section('content')

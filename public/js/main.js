@@ -1,12 +1,24 @@
+let body = document.getElementById('body');
+
 let icon = document.getElementById('icon');
 let nav = document.getElementById('nav');
 
 const toggleMenu = () => {
     icon.classList.toggle('active');
     if(icon.classList.contains('active')){
-        nav.style.left = '0%';
+        if(body.hasAttribute('data')){
+            nav.style.right = '0%';    
+        }
+        else{
+            nav.style.left = '0%';
+        }
     } else {
-        nav.style.left = '-65%'
+        if(body.hasAttribute('data')){
+            nav.style.right = '-65%';    
+        }
+        else{
+            nav.style.left = '-65%'
+        }
     }
 }
 
@@ -62,8 +74,13 @@ nextServices.addEventListener('click', function(){
         prevServices.classList.remove('disabled');
         prevServices.removeAttribute('disabled');
         gridServices.forEach(one => {
-            one.style.left = '-217%'; 
-         });    }
+            if(body.hasAttribute('data')){
+                one.style.right = '-217%'; 
+            }else{
+                one.style.left = '-217%'; 
+            }
+        });
+    }
 })
 
 prevServices.addEventListener('click', function(){
@@ -73,7 +90,11 @@ prevServices.addEventListener('click', function(){
         nextServices.classList.remove('disabled');
         nextServices.removeAttribute('disabled');
         gridServices.forEach(one => {
-           one.style.left = '0%'; 
+            if(body.hasAttribute('data')){
+                one.style.right = '0%'; 
+            }else{
+                one.style.left = '0%'; 
+            }
         });
     }
 })
@@ -85,8 +106,13 @@ nextWork.addEventListener('click', function(){
         prevWork.classList.remove('disabled');
         prevWork.removeAttribute('disabled');
         gridWork.forEach(one => {
-            one.style.left = '-217%'; 
-         });    }
+            if(body.hasAttribute('data')){
+                one.style.right = '-217%'; 
+            }else{
+                one.style.left = '-217%'; 
+            }
+        });
+    }
 })
 
 prevWork.addEventListener('click', function(){
@@ -96,7 +122,11 @@ prevWork.addEventListener('click', function(){
         nextWork.classList.remove('disabled');
         nextWork.removeAttribute('disabled');
         gridWork.forEach(one => {
-           one.style.left = '0%'; 
+            if(body.hasAttribute('data')){
+                one.style.right = '0%'; 
+            }else{
+                one.style.left = '0%'; 
+            }
         });
     }
 })

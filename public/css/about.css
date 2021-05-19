@@ -8,3 +8,10 @@
 .content-about p{
     margin: 5%;
 }
+
+
+@media only screen and (min-width: 768px){
+    .content-about img{
+        height: 400px;
+    }
+}
