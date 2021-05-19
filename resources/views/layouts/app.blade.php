@@ -53,9 +53,9 @@
 
                 <div class="lang">
                     @if (app()->getLocale() == 'ar')
-                    <a href="/locale/en">en</a>
+                    <a href="/locale/en">EN</a>
                     @else
-                    <a href="/locale/ar">ar</a>
+                    <a href="/locale/ar">AR</a>
                     @endif
                 </div>
 
