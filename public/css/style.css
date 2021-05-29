@@ -251,6 +251,10 @@ nav #services p, nav #work p{
     font-family: 'FreightSansProBold';
 }
 
+.grid-header {
+
+}
+
 @media only screen and (min-width: 360px){
     .grid-header h1{
         font-size: 2em;

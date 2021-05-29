@@ -40,7 +40,7 @@
         </div>
         <div class="grid-item grid-services">
             <a href="/services/motion">
-                <img src="img/motion-graphic-icon.png" alt="">
+                <img src="img/motion-graphics-icon.png" alt="">
                 <p>@lang('site.motion')</p>
             </a>
         </div>
@@ -52,7 +52,7 @@
         </div>
         <div class="grid-item grid-services">
             <a href="/services/content-creation">
-                <img src="img/degital-markiting-icon.png" alt="">
+                <img src="img/digital-marketing-icon.png" alt="">
                 <p>@lang('site.content_creation')</p>
             </a>
         </div>
@@ -90,8 +90,8 @@
         </div>
         <div class="grid-item grid-work">
             <a href="/work/motion">
-                <img src="img/motion-graphic-icon.png" alt="">
-                <p>@lang('site.motion_graphics')</p>
+                <img src="img/motion-graphics-icon.png" alt="">
+                <p>@lang('site.motion')</p>
             </a>
         </div>
         <div class="grid-item grid-work">
@@ -102,7 +102,7 @@
         </div>
         <div class="grid-item">
             <div class="grid-item grid-work">
-                <img src="img/degital-markiting-icon.png" alt="">
+                <img src="img/digital-marketing-icon.png" alt="">
                 <p>@lang('site.content_creation')</p>
                 </a>
             </div>
