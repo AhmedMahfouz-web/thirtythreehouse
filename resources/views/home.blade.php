@@ -22,37 +22,37 @@
     <div class="grid">
         <div class="grid-item grid-services">
             <a href="/services/branding">
-                <img src="img/computers.png" alt="">
+                <img src="img/branding-icon.png" alt="">
                 <p>@lang('site.branding')</p>
             </a>
         </div>
         <div class="grid-item grid-services">
             <a href="/services/ui">
-                <img src="img/computers.png" alt="">
+                <img src="img/ui&ux-icon.png" alt="">
                 <p>@lang('site.ui')</p>
             </a>
         </div>
         <div class="grid-item grid-services">
             <a href="/services/packaging">
-                <img src="img/computers.png" alt="">
+                <img src="img/packaging-icon.png" alt="">
                 <p>@lang('site.packaging')</p>
             </a>
         </div>
         <div class="grid-item grid-services">
             <a href="/services/motion">
-                <img src="img/computers.png" alt="">
+                <img src="img/motion-graphic-icon.png" alt="">
                 <p>@lang('site.motion')</p>
             </a>
         </div>
         <div class="grid-item grid-services">
             <a href="/services/web">
-                <img src="img/computers.png" alt="">
+                <img src="img/web-development-icon.png" alt="">
                 <p>@lang('site.web')</p>
             </a>
         </div>
         <div class="grid-item grid-services">
             <a href="/services/content-creation">
-                <img src="img/computers.png" alt="">
+                <img src="img/degital-markiting-icon.png" alt="">
                 <p>@lang('site.content_creation')</p>
             </a>
         </div>
@@ -72,37 +72,37 @@
     <div class="grid">
         <div class="grid-item grid-work">
             <a href="/work/branding">
-                <img src="img/computers.png" alt="">
+                <img src="img/branding-icon.png" alt="">
                 <p>@lang('site.branding')</p>
             </a>
         </div>
         <div class="grid-item grid-work">
             <a href="/work/ui">
-                <img src="img/computers.png" alt="">
+                <img src="img/ui&ux-icon.png" alt="">
                 <p>@lang('site.ui')</p>
             </a>
         </div>
         <div class="grid-item grid-work">
             <a href="/work/packaging">
-                <img src="img/computers.png" alt="">
+                <img src="img/packaging-icon.png" alt="">
                 <p>@lang('site.packaging')</p>
             </a>
         </div>
         <div class="grid-item grid-work">
             <a href="/work/motion">
-                <img src="img/computers.png" alt="">
+                <img src="img/motion-graphic-icon.png" alt="">
                 <p>@lang('site.motion_graphics')</p>
             </a>
         </div>
         <div class="grid-item grid-work">
             <a href="/work/web">
-                <img src="img/computers.png" alt="">
+                <img src="img/web-development-icon.png" alt="">
                 <p>@lang('site.web')</p>
             </a>
         </div>
         <div class="grid-item">
             <div class="grid-item grid-work">
-                <img src="img/computers.png" alt="">
+                <img src="img/degital-markiting-icon.png" alt="">
                 <p>@lang('site.content_creation')</p>
                 </a>
             </div>
