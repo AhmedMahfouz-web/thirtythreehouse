@@ -41,7 +41,7 @@
 
 
         <input type="checkbox" id="privacy" name="privacy">
-        <label for="to" class="privacy-text"> I have read Privacy & Policy and I agreed with it</label><br>
+        <label for="privacy" class="privacy-text"> I have read Privacy & Policy and I agreed with it</label><br>
         <a href="https://google.com" class="btn" id="whatsapp" target='_blank'><img src="/img/whatsapp.png"
                 alt="whatsapp"></a>
     </div>

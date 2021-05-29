@@ -41,7 +41,7 @@
         <div class="grid-item grid-services">
             <a href="/services/motion">
                 <img src="img/computers.png" alt="">
-                <p>@lang('site.motion_graphics')</p>
+                <p>@lang('site.motion')</p>
             </a>
         </div>
         <div class="grid-item grid-services">

@@ -18,11 +18,12 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/owl.carousel.min.css">
 
+    @yield('css')
+
     @if (app()->getLocale() == 'ar')
     <link rel="stylesheet" href="/css/style_ar.css">
     @endif
 
-    @yield('css')
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZD3PLDP2KK"></script>
@@ -113,10 +114,7 @@
         <div class="content content-footer">
             <div class="footer-about">
                 <h4>@lang('site.about_us')</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a orci viverra, hendrerit felis ac,
-                    rutrum
-                    orci. Nullam tristique at tortor sit amet ultrices. Vivamus mauris eros, suscipit vulputate nisl.
-                </p>
+                <p>@lang('site.about-p')</p>
             </div>
 
             <div class="footer-contact">
