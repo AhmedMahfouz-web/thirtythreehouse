@@ -13,13 +13,31 @@
     width: 100%;
     position: relative;
     box-sizing: border-box;
-    padding:  5%;
-    background-image: url('../img/branding-bg.png');
+    padding:  5% 5% 5px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     height: 400px;
     align-items: flex-end;
+}
+
+.header-branding{
+    background-image: url('../img/branding-bg.png');
+}
+.header-ui{
+    background-image: url('../img/ui-bg.png');
+}
+.header-motion{
+    background-image: url('../img/motion-bg.png');
+}
+.header-packaging{
+    background-image: url('../img/packaging-bg.png');
+}
+.header-digital{
+    background-image: url('../img/digital-bg.png');
+}
+.header-web{
+    background-image: url('../img/web-bg.png');
 }
 
 .header::before{
@@ -38,6 +56,7 @@
     color: #212121;
     font-size: 52px;
     margin: 0;
+    font-size: 5em;
     font-family: 'FreightSansProBold';
     text-transform: uppercase;
 }
@@ -81,6 +100,10 @@
 
 .offer p:first-child{
     font-size: 1.1em;
+}
+
+.offer p.about{
+    width: 50%
 }
 
 .offer ul{

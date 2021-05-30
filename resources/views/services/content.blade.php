@@ -10,7 +10,7 @@
 </div>
 
 <div class="container">
-    <div class="header">
+    <div class="header header-digital">
         <h1>Content Creation</h1>
     </div>
     <div class="offer">

@@ -10,7 +10,7 @@
 </div>
 
 <div class="container">
-    <div class="header">
+    <div class="header header-web">
         <h1 class="web">Web development</h1>
     </div>
     <div class="offer">

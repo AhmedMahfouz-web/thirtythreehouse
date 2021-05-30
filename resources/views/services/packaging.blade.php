@@ -10,7 +10,7 @@
 </div>
 
 <div class="container">
-    <div class="header">
+    <div class="header header-packaging">
         <h1 class="web">@lang('site.packaging')</h1>
     </div>
     <div class="offer">

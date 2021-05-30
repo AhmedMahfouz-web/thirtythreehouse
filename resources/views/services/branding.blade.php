@@ -10,11 +10,11 @@
 </div>
 
 <div class="container">
-    <div class="header">
+    <div class="header header-branding">
         <h1>Branding</h1>
     </div>
     <div class="offer">
-        <p>@lang('site.branding_intro')</p>
+        <p class="about">@lang('site.branding_intro')</p>
         <h2>Service contains:</h2>
         <ul>
             <li>- Logo design</li>

@@ -18,7 +18,7 @@ return[
     'our_work' => 'Our Work',
     'about_us' => 'About Us',
 
-    'branding_intro' => 'The most developed yet simple and clear designs and logos require work and patience, but we deliver them to you with ease and simplicity, to give you an image of perfect publicity.',
+    'branding_intro' => "A different perspective is always needed, and with the help of our branding team of bright minds and upcoming artists of this generation, it's guaranteed you'll get the freshest and most creative ideas and designs.",
 
     'branding-intro-work' => "A different perspective is always needed, and with the help of our branding team of bright minds and upcoming artists of this generation, it's guaranteed you'll get the freshest and most creative ideas and designs.
     <br> Here are our latest works:",
