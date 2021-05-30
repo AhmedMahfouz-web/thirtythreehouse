@@ -14,10 +14,11 @@
     position: relative;
     box-sizing: border-box;
     padding:  5%;
-    background-image: url('../img/bg.jpg');
+    background-image: url('../img/branding-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    height: 400px;
     align-items: flex-end;
 }
 

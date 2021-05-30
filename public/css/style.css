@@ -284,7 +284,7 @@ nav #services p, nav #work p{
 
 .grid-item img{
     width: 100%;
-    filter: grayscale(100%);
+    filter: grayscale(60%);
     border-radius: 10px;
     transition: 0.3s;
 }
