@@ -11,10 +11,10 @@
 
 <div class="container">
     <div class="header header-motion">
-        <h1>Motion</h1>
+        <h1>@lang('site.motion')</h1>
     </div>
     <div class="offer">
-        <p>@lang('site.motion_intro')</p>
+        <p class="about">@lang('site.motion_intro')</p>
         <h2>Service contains:</h2>
         <ul>
             <li>- Logo design</li>

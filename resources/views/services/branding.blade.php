@@ -11,7 +11,7 @@
 
 <div class="container">
     <div class="header header-branding">
-        <h1>Branding</h1>
+        <h1>@lang('site.branding')</h1>
     </div>
     <div class="offer">
         <p class="about">@lang('site.branding_intro')</p>

@@ -11,10 +11,10 @@
 
 <div class="container">
     <div class="header header-web">
-        <h1 class="web">Web development</h1>
+        <h1>@lang('site.web')</h1>
     </div>
     <div class="offer">
-        <p>@lang('site.web_intro')</p>
+        <p class="about">@lang('site.web_intro')</p>
         <h2>Service contains:</h2>
         <ul>
             <li>- Logo design</li>

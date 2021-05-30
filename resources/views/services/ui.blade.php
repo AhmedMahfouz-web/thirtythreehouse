@@ -10,11 +10,11 @@
 </div>
 
 <div class="container">
-    <div class="header header-packaging">
-        <h1 class="web">@lang('site.packaging')</h1>
+    <div class="header header-ui">
+        <h1>@lang('site.ui')</h1>
     </div>
     <div class="offer">
-        <p class="about">@lang('site.packaging_intro')</p>
+        <p class="about">@lang('site.ui_intro')</p>
         <h2>Service contains:</h2>
         <ul>
             <li>- Logo design</li>
@@ -48,7 +48,7 @@
         <div class="grid grid-ui">
             <div class="grid-item">
                 <div class="right">
-                    <img src="/img/carbon.png" alt="">
+                    <img src="/img/ui.png" alt="">
                 </div>
                 <div class="left">
                     <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -60,7 +60,7 @@
             </div>
             <div class="grid-item">
                 <div class="right">
-                    <img src="/img/carbon.png" alt="">
+                    <img src="/img/ui.png" alt="">
                 </div>
                 <div class="left">
                     <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -72,7 +72,7 @@
             </div>
             <div class="grid-item">
                 <div class="right">
-                    <img src="/img/carbon.png" alt="">
+                    <img src="/img/ui.png" alt="">
                 </div>
                 <div class="left">
                     <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -84,7 +84,7 @@
             </div>
             <div class="grid-item">
                 <div class="right">
-                    <img src="/img/carbon.png" alt="">
+                    <img src="/img/ui.png" alt="">
                 </div>
                 <div class="left">
                     <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -95,7 +95,6 @@
                 <div class="fix"></div>
             </div>
         </div>
-    </div>
 </div>
 @endsection
 

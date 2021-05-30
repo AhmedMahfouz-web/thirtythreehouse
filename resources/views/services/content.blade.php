@@ -11,10 +11,10 @@
 
 <div class="container">
     <div class="header header-digital">
-        <h1>Content Creation</h1>
+        <h1>@lang('site.digital')</h1>
     </div>
     <div class="offer">
-        <p>@lang('site.content_intro')</p>
+        <p class="about">@lang('site.digital_intro')</p>
         <h2>Service contains:</h2>
         <ul>
             <li>- Logo design</li>

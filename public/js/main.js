@@ -100,9 +100,9 @@ nextServices.addEventListener('click', function(){
         prevServices.removeAttribute('disabled');
         gridServices.forEach(one => {
             if(body.hasAttribute('data')){
-                one.style.right = '-217%'; 
+                one.style.right = '-241%'; 
             }else{
-                one.style.left = '-217%'; 
+                one.style.left = '-241%'; 
             }
         });
     }
@@ -132,9 +132,9 @@ nextWork.addEventListener('click', function(){
         prevWork.removeAttribute('disabled');
         gridWork.forEach(one => {
             if(body.hasAttribute('data')){
-                one.style.right = '-217%'; 
+                one.style.right = '-241%'; 
             }else{
-                one.style.left = '-217%'; 
+                one.style.left = '-241%'; 
             }
         });
     }

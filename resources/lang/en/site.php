@@ -33,7 +33,8 @@ return[
     'web-intro-work' => "How convenient a website is can change the customer's attitude towards the brand and the product. We will ensure that it is always a positive and soothing one.
     <br> Here are our latest works:",
 
-    'content_intro' => 'The process of creating the content is complecated at some stages, To study the audience and their behaviour and optmize the content according to their prefrences is a very accurate operation needs seady hand, clear mind and a good stratigy. <br>Luckly, We have the best move fo this mission. <br> Our service : <br>- Script writing. <br>- Content strategy. <br>- Content Marketing. <br>- Social media campaigns. <br>- Post blogs. <br>- Web sites content.',
+    
+    'digital_intro' => 'Content creation is one of the most trending forms now of digital marketing since now since social media connects the business with the target audience now more than ever, whether it was script marketing for your individual website or marketing for your company, our team will help you study your audience and optimize your content accordingly, and will manage your social media accounts and websites.',
 
     'about-p' => "In Thirtythree our whole principle is to find the perfect ratio in all things and to use it to achieve the most novel and ideal work we could do, our perfect ratio isn't just a mathematical equation or idea, it is the balance that is needed in all forms of art, it is the satisfaction between the need of perfect work and the aim for the perfect result.",
 

@@ -246,13 +246,9 @@ nav #services p, nav #work p{
     width: fit-content;
     margin-top: 0;
     text-transform: uppercase;
-    font-size: 30px;
-    font-size: 1.7  em;
+    font-size: 1.7em;
+    margin-bottom: 0;
     font-family: 'FreightSansProBold';
-}
-
-.grid-header {
-
 }
 
 @media only screen and (min-width: 360px){
@@ -566,10 +562,10 @@ footer img{
 
     .grid{
         display: grid;
-        grid-template-columns: 23.5% 23.5% 23.5% 23.5% 23.5% 23.5%;
+        grid-template-columns: 19.5% 19.5% 19.5% 19.5% 19.5% 19.5%;
         overflow-x: hidden;
-        grid-column-gap: 2%;
-        grid-row-gap: 10px;
+        grid-column-gap: 6%;
+        grid-row-gap: 0px;
         width: 100%;
         box-sizing: border-box;
     }
@@ -578,6 +574,9 @@ footer img{
         position: relative;
         left: 0%;
         transition: 1s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
 
     footer{
