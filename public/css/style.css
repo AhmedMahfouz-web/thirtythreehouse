@@ -284,7 +284,13 @@ nav #services p, nav #work p{
 
 .grid-item img{
     width: 100%;
+    filter: grayscale(100%);
     border-radius: 10px;
+    transition: 0.3s;
+}
+
+.grid-item img:hover{
+    filter: grayscale(0%);
 }
 
 .grid-item p{

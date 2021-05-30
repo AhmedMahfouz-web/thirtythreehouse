@@ -24,16 +24,6 @@ const toggleMenu = () => {
 
 icon.addEventListener('click', toggleMenu);
 
-document.addEventListener('click', function (event) {
-    var isClickInside = nav.contains(event.target);
-    var isClickedBtn = icon.contains(event.target);
-    if (nav.style.left == "0%") {
-        if (!isClickInside && !isClickedBtn) {
-            toggleMenu()
-        }
-    }
-});
-
 const {slideToggle} = window.domSlider
 let services_btn = document.getElementById('services-btn');
 let services = document.getElementById('services');
@@ -58,7 +48,42 @@ work_btn.addEventListener('click', function(){
         services.classList.toggle('active');
         slideToggle({element: services, slideSpeed: 500})
     }
-})
+});
+
+document.addEventListener('click', function (event) {
+    // For Nav
+    let isClickInside = nav.contains(event.target);
+    let isClickedBtn = icon.contains(event.target);
+    if (nav.style.left == "0%") {
+        if (!isClickInside && !isClickedBtn) {
+            toggleMenu()
+        }
+    }
+
+    let isClickedServices = services_btn.contains(event.target);
+    let isClickedServicesInside = services.contains(event.target);
+    let isClickedWork = work_btn.contains(event.target);
+    let isClickedWorkInside = work.contains(event.target);
+
+
+    if(services.classList.contains('active')){
+        console.log('before');
+        if(!isClickedServices && !isClickedServicesInside){
+            console.log('after');
+            services.classList.remove('active');
+            slideToggle({element: services, slideSpeed: 500})
+        }
+    }
+    
+    if(work.classList.contains('active')){
+        if(!isClickedWork && !isClickedWorkInside){
+            work.classList.remove('active');
+            slideToggle({element: work, slideSpeed: 500})
+        }
+    }
+    
+});
+
 
 let gridServices = document.querySelectorAll('.grid-services');
 let gridWork = document.querySelectorAll('.grid-work');
