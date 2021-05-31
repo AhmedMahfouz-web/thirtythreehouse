@@ -10,14 +10,20 @@
 </div>
 
 <div id="privacy-section">
-    <div class="close"><i class="ri-close-line"></i></div>
-    <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempore perspiciatis deserunt quidem id, ullam,
-            nisi laborum quos reprehenderit harum unde saepe quaerat eligendi pariatur suscipit itaque voluptas dolorem
-            temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nobis. Laudantium ullam fugiat
-            iusto assumenda sunt unde veritatis sapiente ea neque praesentium tenetur recusandae id magnam nihil, esse
-            minus suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores modi eligendi aliquid
-            doloribus quos placeat,</p>
+    <div class="black-bg">
+        <div class="close"><i class="ri-close-line"></i></div>
+        <div class="privacy-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempore perspiciatis deserunt quidem id,
+                ullam,
+                nisi laborum quos reprehenderit harum unde saepe quaerat eligendi pariatur suscipit itaque voluptas
+                dolorem
+                temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nobis. Laudantium ullam
+                fugiat
+                iusto assumenda sunt unde veritatis sapiente ea neque praesentium tenetur recusandae id magnam nihil,
+                esse
+                minus suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores modi eligendi aliquid
+                doloribus quos placeat,</p>
+        </div>
     </div>
 </div>
 

@@ -270,7 +270,15 @@
     bottom: -100%;
 }
 
-#privacy-section div{
+#privacy-section .black-bg{
+    background: none;
+    transition: 0.5s 0.3s;
+    height: calc(100vh - 60px);
+    width: 100%;
+    position: fixed;
+}
+
+#privacy-section  .privacy-content{
     background-color: #fafafa;
     width: 90%;
     position: absolute;
@@ -286,8 +294,11 @@
 }
 
 #privacy-section.active{
-    background: rgba(0, 0, 0, 0.6);
     bottom: 0;
+}
+
+#privacy-section.active .black-bg{
+    background: rgba(0, 0, 0, 0.75);
 }
 
 #privacy-section .close{

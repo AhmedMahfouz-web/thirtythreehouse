@@ -110,7 +110,6 @@ header h1 a, header h5 a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: -4px;
 }
 
 .lang a{
@@ -118,6 +117,17 @@ header h1 a, header h5 a{
     text-decoration: none;
     font-weight: bold;
     font-size: 1.5em;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.lang a img{
+    height: 100%;
 }
 
 

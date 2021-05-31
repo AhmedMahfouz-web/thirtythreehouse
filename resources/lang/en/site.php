@@ -12,7 +12,7 @@ return[
     'packaging' => 'Packaging',
     'motion' => 'Motion Graphics',
     'web' => 'Web Development',
-    'content_creation' => 'Content Creation',
+    'digital' => 'Digital Marketing',
     'script' => 'Script Writing',
     'our_services' => 'Our Services',
     'our_work' => 'Our Work',

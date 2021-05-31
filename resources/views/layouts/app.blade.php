@@ -54,9 +54,9 @@
 
                 <div class="lang">
                     @if (app()->getLocale() == 'ar')
-                    <a href="/locale/en">EN</a>
+                    <a href="/locale/en"><img src="/img/england.png" alt="EN" title="English"></a>
                     @else
-                    <a href="/locale/ar">AR</a>
+                    <a href="/locale/ar"><img src="/img/saudi_arabia.png" alt="AR" title="Arabic"></a>
                     @endif
                 </div>
 
@@ -101,7 +101,7 @@
                 </div>
             </div>
             <div>
-                <p><a href="/contact">@lang('site.contact')</a></p>
+                <p><a href="/contact-us">@lang('site.contact')</a></p>
             </div>
         </nav>
     </div>

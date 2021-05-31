@@ -9,6 +9,24 @@
     <p>You have to read <span class="blue">Privacy & Policy</span> and agree with it</p>
 </div>
 
+<div id="privacy-section">
+    <div class="black-bg">
+        <div class="close"><i class="ri-close-line"></i></div>
+        <div class="privacy-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempore perspiciatis deserunt quidem id,
+                ullam,
+                nisi laborum quos reprehenderit harum unde saepe quaerat eligendi pariatur suscipit itaque voluptas
+                dolorem
+                temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nobis. Laudantium ullam
+                fugiat
+                iusto assumenda sunt unde veritatis sapiente ea neque praesentium tenetur recusandae id magnam nihil,
+                esse
+                minus suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores modi eligendi aliquid
+                doloribus quos placeat,</p>
+        </div>
+    </div>
+</div>
+
 <div class="container">
     <div class="header header-digital">
         <h1>@lang('site.digital')</h1>
@@ -30,10 +48,6 @@
         <label for="so"> Motion intro <span class="price">(+30 $)</span></label><br>
         <input type="checkbox" id="to" name="to" value="Identity" price="50">
         <label for="to"> Visual identity <span class="price">(+50 $)</span></label><br>
-        <div>
-            <p class="old-price" id="old-price">215</p>
-            <p class="current-price" id="current-price">120</p> <span class="dollar">$</span>
-        </div>
 
 
         <input type="checkbox" id="privacy" name="privacy">

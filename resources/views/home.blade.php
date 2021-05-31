@@ -53,7 +53,7 @@
         <div class="grid-item grid-services">
             <a href="/services/content-creation">
                 <img src="img/digital-marketing-icon.png" alt="">
-                <p>@lang('site.content_creation')</p>
+                <p>@lang('site.digital')</p>
             </a>
         </div>
     </div>

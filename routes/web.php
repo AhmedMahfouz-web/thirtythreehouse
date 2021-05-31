@@ -62,6 +62,10 @@ Route::get('/services/packaging', function () {
     return view('services.packaging');
 });
 
+Route::get('/contact-us', function () {
+    return view('pages.contact');
+});
+
 Route::get('/services/motion', function () {
     return view('services.motion');
 });

@@ -1,0 +1,31 @@
+.content-contact{
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-contact p{
+    font-size: 1.6em;
+    margin: 5px 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+p i{
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+p .ri-whatsapp-line{
+    color: rgb(57, 185, 57);
+}
+
+.content-contact .links{
+    display: flex;
+    gap: 10px;
+}
+
+.links img{
+    width: 40px;
+}
