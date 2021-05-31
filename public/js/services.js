@@ -48,3 +48,17 @@ whatsapp.addEventListener('click', function(e){
         }, 3000);
     }
 })
+
+let privacy_btn = document.getElementsByClassName('blue');
+let privacy_section = document.getElementById('privacy-section');
+let close_btn = document.getElementsByClassName('close');
+
+for(let i = 0; i < privacy_btn.length; i++){
+    privacy_btn[i].addEventListener('click', function(e){
+        e.preventDefault()
+        privacy_section.classList.add('active');
+    })
+    close_btn[i].addEventListener('click', function(){
+        privacy_section.classList.remove('active');
+    })
+}

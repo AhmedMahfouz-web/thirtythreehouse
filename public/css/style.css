@@ -272,6 +272,9 @@ nav #services p, nav #work p{
 
 .grid-item {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .grid-item a{
@@ -280,12 +283,15 @@ nav #services p, nav #work p{
 
 .grid-item img{
     width: 100%;
-    filter: grayscale(60%);
     border-radius: 10px;
     transition: 0.3s;
 }
 
-.grid-item img:hover{
+.grid-services img, .grid-work img{
+    filter: grayscale(60%);
+}
+
+.grid-services img:hover, .grid-work img:hover{
     filter: grayscale(0%);
 }
 
@@ -574,9 +580,6 @@ footer img{
         position: relative;
         left: 0%;
         transition: 1s ease;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
     }
 
     footer{
