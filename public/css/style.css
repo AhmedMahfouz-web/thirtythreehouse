@@ -100,6 +100,10 @@ header h1 a, header h5 a{
     text-decoration: none;
 }
 
+header h5 a .last-letter{
+    letter-spacing: normal;
+}
+
 .lang{
     position: absolute;
     right: 5%;
@@ -638,7 +642,7 @@ footer img{
     }
     nav{
         width: fit-content;
-        top: 0px;
+        top: 5px;
         padding: 0;
         right: -1.5%;
         left: unset;

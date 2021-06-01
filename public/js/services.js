@@ -52,13 +52,24 @@ whatsapp.addEventListener('click', function(e){
 let privacy_btn = document.getElementsByClassName('blue');
 let privacy_section = document.getElementById('privacy-section');
 let close_btn = document.getElementsByClassName('close');
+let privacy_content = document.getElementsByClassName('privacy-content')[0];
 
 for(let i = 0; i < privacy_btn.length; i++){
     privacy_btn[i].addEventListener('click', function(e){
         e.preventDefault()
         privacy_section.classList.add('active');
     })
-    close_btn[i].addEventListener('click', function(){
+    close_btn[0].addEventListener('click', function(){
         privacy_section.classList.remove('active');
     })
 }
+
+
+document.addEventListener('click', function (event) {
+    let privacy_content_inside = privacy_content.contains(event.target);
+    
+    let privacy_section_clicked = privacy_section.contains(event.target);
+    if(!privacy_content_inside && privacy_section_clicked){
+        privacy_section.classList.remove('active');
+    }
+})

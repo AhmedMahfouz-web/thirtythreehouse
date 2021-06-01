@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
 body{
     direction: rtl;
+    font-family: 'Cairo', sans-serif;
 }
 
 header #icon{
@@ -31,6 +34,10 @@ nav div .arrow{
     direction: ltr;
 }
 
+.header::before{
+    background: rgb(250,250,250);
+    background: linear-gradient(270deg, rgba(250,250,250,1) 0%, rgba(250,250,250,0) 80%);
+}
 
 @media only screen and (min-width: 1024px){
     
@@ -41,6 +48,7 @@ nav div .arrow{
 
     nav{
         right: unset;
+        top: 5px;
         left: calc(5% + 40px);
     }
     
@@ -62,10 +70,7 @@ nav div .arrow{
     }
     
     nav div .arrow{
-        right: unset;
-        left: 0;
-        top: 18px;
-        font-size: 1.25em;
+        top: 25px;
     }
 
     .grid-header .btns{

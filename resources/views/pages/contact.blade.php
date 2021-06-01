@@ -14,7 +14,6 @@
         <p><a href="#"><img src="/img/TW.png" alt="Twietter link"></a></p>
         <p><a href="https://www.instagram.com/thirtythreehouse/"><img src="/img/IG.png" alt="Intagram link"></a>
         </p>
-        <p><a href="#"><img src="/img/WA.png" alt="Whatsapp link"></a></p>
         <p><a href="#"><img src="/img/LI.png" alt="LinkeIn link"></a></p>
     </div>
     <p><i class="ri-mail-line"></i> sales@thirtythreehouse.com</p>

@@ -321,4 +321,9 @@
     .toast{
         width: fit-content;
     }
+    
+    #privacy-section  .privacy-content{
+        width: 50%;
+        overflow-y: auto;
+    }
 }

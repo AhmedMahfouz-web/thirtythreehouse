@@ -62,7 +62,7 @@
 
                 <div class="text">
                     <h1><a href="/">ThirtyThree</a></h1>
-                    <h5><a href="/">house</a></h5>
+                    <h5><a href="/">hous<span class="last-letter">e</span></a></h5>
                 </div>
             </div>
         </div>
