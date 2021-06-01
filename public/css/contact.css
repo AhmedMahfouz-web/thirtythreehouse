@@ -29,3 +29,28 @@ p .ri-whatsapp-line{
 .links img{
     width: 40px;
 }
+
+#mail{
+    cursor: pointer;
+}
+
+#copied{
+    width: fit-content;
+    background: rgba(224, 224, 224, 0.7);
+    position: fixed;
+    bottom: -100%;
+    right: 50%;
+    transform: translate(50%, 0);
+    padding: 10px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-weight: bold;
+    z-index: 5;
+    transition: 0.5s;
+    backdrop-filter: blur(3px);
+}
+
+#copied.active{
+    bottom: 5%;
+}

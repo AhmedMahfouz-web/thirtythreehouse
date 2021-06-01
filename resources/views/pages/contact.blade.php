@@ -5,6 +5,7 @@
 @endsection
 
 @section('content')
+<div id="copied">@lang('site.copied')</div>
 <div class="content-contact">
     <p><i class="ri-phone-line"></i> +20 100 610 49 25</p>
     <p><i class="ri-whatsapp-line"></i> +20 10 33 739 707</p>
@@ -16,6 +17,10 @@
         </p>
         <p><a href="#"><img src="/img/LI.png" alt="LinkeIn link"></a></p>
     </div>
-    <p><i class="ri-mail-line"></i> sales@thirtythreehouse.com</p>
+    <p><i class="ri-mail-line"></i> <span id="mail">sales@thirtythreehouse.com</span></p>
 </div>
+@endsection
+
+@section('js')
+<script src="/js/contact.js"></script>
 @endsection

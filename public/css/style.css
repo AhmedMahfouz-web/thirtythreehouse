@@ -519,8 +519,8 @@ footer img{
         position: absolute;
         top: 110%;
         margin: 0;
-        width: 140px;
-        left: 0;
+        width: 160px;
+        left: -30%;
         background-color: #111111;
         padding: 20px;
         border-radius: 15px;

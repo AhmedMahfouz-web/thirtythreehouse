@@ -65,7 +65,8 @@ nav div .arrow{
     
     nav #services, nav #work {
         left: unset;
-        right: 0;
+        right: -30%;
+        width: 180px;
 
     }
     

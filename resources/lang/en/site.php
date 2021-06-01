@@ -17,6 +17,7 @@ return[
     'our_services' => 'Our Services',
     'our_work' => 'Our Work',
     'about_us' => 'About Us',
+    'copied' => 'Copied',
 
     'branding_intro' => "A different perspective is always needed, and with the help of our branding team of bright minds and upcoming artists of this generation, it's guaranteed you'll get the freshest and most creative ideas and designs.",
 
