@@ -39,6 +39,22 @@ nav div .arrow{
     background: linear-gradient(270deg, rgba(250,250,250,1) 0%, rgba(250,250,250,0) 80%);
 }
 
+h1,h2,h3,h4,h5,h6,p,a,div{
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.toast p{
+    line-height: 1.5;
+}
+
+header h1 ,header h1 a{
+    font-family: 'FreightSansProBold' !important;
+}
+
+header h5 ,header h5 a{
+    font-family: 'FreightSansProBook' !important;
+}
+
 @media only screen and (min-width: 1024px){
     
     header .text{

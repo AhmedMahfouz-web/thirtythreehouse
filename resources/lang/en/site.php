@@ -49,7 +49,7 @@ return[
 
     "packaging_intro" => "Although heavily underestimated, the impact of packaging on a consumer's mind and mental in general, is one of the major factors in marketing. Getting the perfect ratio of color palettes while matching the product's purpose is a tough job, our packaging team goes through the artistical processes for you while ensuring the best quality physically and mentally.",
 
-    "packaging_intro_services" => "Although heavily underestimated, the impact of packaging on a consumer's mind and mental in general, is one of the major factors in marketing...",
+    "packaging_intro_services" => "Although heavily underestimated, the impact of packaging on a consumer's mind and mental in general...",
 
     "packaging-intro-work" => "You can't sell a product without an attractive and interesting design even if it was flawless, and with that idea we provide the results of the packaging we did with artistic and business knowledge, and delivered to our customers.
     <br> Here are our latest works:",
@@ -62,12 +62,15 @@ return[
     <br> Here are our latest works:
     ",
 
-    
+    "privacy_policy" => "Privacy & Policy",
 
+    "privacy" => "",
 
+    "read" => "I have read",
+    "agree" => "and I agree with it",
 
-
-
+    "service_contain" => "Service contains",
+    "additional_options" => "Additional Options",
 
 
 ]

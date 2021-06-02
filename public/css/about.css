@@ -1,17 +1,43 @@
+.content-about{
+    min-height: 60vh;
+}
+
 .content-about img{
     width: 100% !important;
 }
 .content-about h1{
-    margin: 5%;
+    margin: 20px 5%;
 }
 
 .content-about p{
-    margin: 5%;
+    margin: 0 5%;
+}
+
+.img-about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.img-about img{
+    width: 100%;
 }
 
 
 @media only screen and (min-width: 768px){
-    .content-about img{
+    .content-about .img-about{
         height: 400px;
+    }
+}
+
+@media only screen and (min-width: 1560px){
+    .content-about h1{
+        margin: 20px 0%;
+    }
+
+    .content-about p{
+        margin: 0 ;
     }
 }

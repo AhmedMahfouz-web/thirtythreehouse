@@ -6,7 +6,9 @@
 
 @section('content')
 <div class="content-about">
-    <img src="/img/company.jpg" alt="company">
+    <div class="img-about">
+        <img src="/img/about.jpg" alt="company">
+    </div>
     <h1>@lang('site.about')</h1>
     <p>@lang('site.about-p')</p>
 </div>

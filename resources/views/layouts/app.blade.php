@@ -86,8 +86,7 @@
                     <p><a href="/services/packaging">@lang('site.packaging')</a></p>
                     <p><a href="/services/motion">@lang('site.motion')</a></p>
                     <p><a href="/services/web">@lang('site.web')</a></p>
-                    <p><a href="/services/content-creation">@lang('site.content_creation')</a></p>
-                    <p><a href="/services/script">@lang('site.script')</a></p>
+                    <p><a href="/services/content-creation">@lang('site.digital')</a></p>
                 </div>
             </div>
             <div id="work-btn">
@@ -120,15 +119,15 @@
             <div class="footer-contact">
                 <h4>@lang('site.contact')</h4>
                 <div class="links">
-                    <p><a href="https://www.facebook.com/Thirtythreehouse/"><img src="/img/FB.png"
+                    <p><a href="https://www.facebook.com/Thirtythreehouse/" target="_blank"><img src="/img/FB.png"
                                 alt="Facebook link"></a>
                     </p>
-                    <p><a href="#"><img src="/img/TW.png" alt="Twietter link"></a></p>
-                    <p><a href="https://www.instagram.com/thirtythreehouse/"><img src="/img/IG.png"
+                    <p><a href="#" target="_blank"><img src="/img/TW.png" alt="Twietter link"></a></p>
+                    <p><a href="https://www.instagram.com/thirtythreehouse/" target="_blank"><img src="/img/IG.png"
                                 alt="Intagram link"></a>
                     </p>
-                    <p><a href="#"><img src="/img/WA.png" alt="Whatsapp link"></a></p>
-                    <p><a href="#"><img src="/img/LI.png" alt="LinkeIn link"></a></p>
+                    <p><a href="#" target="_blank"><img src="/img/WA.png" alt="Whatsapp link"></a></p>
+                    <p><a href="#" target="_blank"><img src="/img/LI.png" alt="LinkeIn link"></a></p>
                 </div>
             </div>
 
