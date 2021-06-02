@@ -54,9 +54,9 @@
 
                 <div class="lang">
                     @if (app()->getLocale() == 'ar')
-                    <a href="/locale/en"><img src="/img/england.png" alt="EN" title="English"></a>
+                    <a href="/locale/en"><img src="/img/saudi_arabia.png" alt="AR" title="Arabic"></a>
                     @else
-                    <a href="/locale/ar"><img src="/img/saudi_arabia.png" alt="AR" title="Arabic"></a>
+                    <a href="/locale/ar"><img src="/img/england.png" alt="EN" title="English"></a>
                     @endif
                 </div>
 

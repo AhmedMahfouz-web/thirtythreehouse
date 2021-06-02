@@ -22,38 +22,62 @@
     <div class="grid">
         <div class="grid-item grid-services">
             <a href="/services/branding">
-                <img src="img/branding-icon.png" alt="">
-                <p>@lang('site.branding')</p>
+                <div class="img">
+                    <img src="img/branding-icon.png" alt="">
+                </div>
+                <p class="name">@lang('site.branding')</p>
+                <p class="breif">@lang('site.branding_intro_services')</p>
+                <button>See More</button>
             </a>
         </div>
         <div class="grid-item grid-services">
             <a href="/services/ui">
-                <img src="img/ui&ux-icon.png" alt="">
-                <p>@lang('site.ui')</p>
+                <div class="img">
+                    <img src="img/ui&ux-icon.png" alt="">
+                </div>
+                <p class="name">@lang('site.ui')</p>
+                <p class="breif">@lang('site.ui_intro_services')</p>
+                <button>See More</button>
             </a>
         </div>
         <div class="grid-item grid-services">
             <a href="/services/packaging">
-                <img src="img/packaging-icon.png" alt="">
-                <p>@lang('site.packaging')</p>
+                <div class="img">
+                    <img src="img/packaging-icon.png" alt="">
+                </div>
+                <p class="name">@lang('site.packaging')</p>
+                <p class="breif">@lang('site.packaging_intro_services')</p>
+                <button>See More</button>
             </a>
         </div>
         <div class="grid-item grid-services">
             <a href="/services/motion">
-                <img src="img/motion-graphics-icon.png" alt="">
-                <p>@lang('site.motion')</p>
+                <div class="img">
+                    <img src="img/motion-graphics-icon.png" alt="">
+                </div>
+                <p class="name">@lang('site.motion')</p>
+                <p class="breif">@lang('site.motion_intro_services')</p>
+                <button>See More</button>
             </a>
         </div>
         <div class="grid-item grid-services">
             <a href="/services/web">
-                <img src="img/web-development-icon.png" alt="">
-                <p>@lang('site.web')</p>
+                <div class="img">
+                    <img src="img/web-development-icon.png" alt="">
+                </div>
+                <p class="name">@lang('site.web')</p>
+                <p class="breif">@lang('site.web_intro_services')</p>
+                <button>See More</button>
             </a>
         </div>
         <div class="grid-item grid-services">
             <a href="/services/content-creation">
-                <img src="img/digital-marketing-icon.png" alt="">
-                <p>@lang('site.digital')</p>
+                <div class="img">
+                    <img src="img/digital-marketing-icon.png" alt="">
+                </div>
+                <p class="name">@lang('site.digital')</p>
+                <p class="breif">@lang('site.digital_intro_services')</p>
+                <button>See More</button>
             </a>
         </div>
     </div>

@@ -185,7 +185,7 @@ nav #services p, nav #work p{
 }
 
 .owl-carousel{
-    height: 30vh;
+    height: 40vh;
 }
 
 .owl-stage-outer{
@@ -193,7 +193,7 @@ nav #services p, nav #work p{
 }
 
 .owl-carousel div img{
-    height: 30vh !important;
+    height: 40vh !important;
 }
 
 .owl-nav{
@@ -277,11 +277,12 @@ nav #services p, nav #work p{
 
 .grid{
     display: grid;
-    grid-template-columns: 47% 47% ;
-    grid-column-gap: 6%;
-    grid-row-gap: 10px;
+    grid-template-columns: 48% 48% ;
+    grid-column-gap: 4%;
+    grid-row-gap: 15px;
     width: 100%;
     box-sizing: border-box;
+    padding: 10px 0;
 }
 
 .grid-item {
@@ -291,21 +292,36 @@ nav #services p, nav #work p{
     justify-content: flex-end;
 }
 
+.grid-services{
+    border-radius: 20px;
+    border: 1px solid #111111;
+    box-shadow: 1px 1px 1px gray;
+}
+
 .grid-item a{
     text-decoration: none;
+    padding: 10px 10px 20px;
+}
+
+.grid-item .img{
+    width: 100%;
 }
 
 .grid-item img{
     width: 100%;
-    border-radius: 10px;
-    transition: 0.3s;
+    box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.603);
 }
 
-.grid-services img, .grid-work img{
+.grid-services img{
+    box-shadow: none;
+}
+
+.grid-services img{
     filter: grayscale(60%);
+    transition: 0.5s;
 }
 
-.grid-services img:hover, .grid-work img:hover{
+.grid-services a:hover img{
     filter: grayscale(0%);
 }
 
@@ -314,6 +330,24 @@ nav #services p, nav #work p{
     margin: 0;
     font-weight: bold;
     color: #212121;
+    font-size: 0.8em;
+    line-height: 1.5;
+}
+
+.grid-services .name{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.grid-services button{
+    width: 120px;
+    background-color: #111111;
+    color: #fafafa;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    margin-top: 15px;
+    padding: 7px 0;
 }
 
 footer{
@@ -496,7 +530,7 @@ footer img{
 
     nav div p::before{
         content: '';
-        height: 3px;
+        height: 2px;
         width: 0%;
         transition: 0.3s;
         position: absolute;
@@ -582,9 +616,9 @@ footer img{
 
     .grid{
         display: grid;
-        grid-template-columns: 19.5% 19.5% 19.5% 19.5% 19.5% 19.5%;
+        grid-template-columns: 21.5% 21.5% 21.5% 21.5% 21.5% 21.5%;
         overflow-x: hidden;
-        grid-column-gap: 6%;
+        grid-column-gap: 4%;
         grid-row-gap: 0px;
         width: 100%;
         box-sizing: border-box;
@@ -594,6 +628,15 @@ footer img{
         position: relative;
         left: 0%;
         transition: 1s ease;
+    }
+
+    .grid-services a{
+        height: 100%;
+        padding: 0 40px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     footer{
@@ -628,6 +671,10 @@ footer img{
 }
 
 @media only screen and (min-width: 1566px){
+    .logo-header{
+        position: relative;
+    }
+
     .content{
         max-width: 1566px;
         margin: auto;
@@ -642,9 +689,8 @@ footer img{
     }
     nav{
         width: fit-content;
-        top: 5px;
-        padding: 0;
-        right: -1.5%;
+        top: 0px;
+        right: 40px;
         left: unset;
     }
     .owl-carousel{

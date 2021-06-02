@@ -100,9 +100,9 @@ nextServices.addEventListener('click', function(){
         prevServices.removeAttribute('disabled');
         gridServices.forEach(one => {
             if(body.hasAttribute('data')){
-                one.style.right = '-241%'; 
+                one.style.right = '-229%'; 
             }else{
-                one.style.left = '-241%'; 
+                one.style.left = '-229%'; 
             }
         });
     }
