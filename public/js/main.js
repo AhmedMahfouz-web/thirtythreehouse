@@ -132,9 +132,9 @@ nextWork.addEventListener('click', function(){
         prevWork.removeAttribute('disabled');
         gridWork.forEach(one => {
             if(body.hasAttribute('data')){
-                one.style.right = '-241%'; 
+                one.style.right = '-118%'; 
             }else{
-                one.style.left = '-241%'; 
+                one.style.left = '-118%'; 
             }
         });
     }

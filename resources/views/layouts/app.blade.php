@@ -89,7 +89,7 @@
                     <p><a href="/services/content-creation">@lang('site.digital')</a></p>
                 </div>
             </div>
-            <div id="work-btn">
+            {{-- <div id="work-btn">
                 <p>@lang('site.work') </p><span class="arrow"><i class="ri-arrow-down-s-line"></i></span>
                 <div id="work">
                     <p><a href="/work/branding">@lang('site.branding')</a></p>
@@ -98,7 +98,7 @@
                     <p><a href="/work/motion">@lang('site.motion')</a></p>
                     <p><a href="/work/web">@lang('site.web')</a></p>
                 </div>
-            </div>
+            </div> --}}
             <div>
                 <p><a href="/contact-us">@lang('site.contact')</a></p>
             </div>
@@ -111,10 +111,6 @@
 
     <footer>
         <div class="content content-footer">
-            <div class="footer-about">
-                <h4>@lang('site.about_us')</h4>
-                <p>@lang('site.about-p')</p>
-            </div>
 
             <div class="footer-contact">
                 <h4>@lang('site.contact')</h4>
@@ -122,16 +118,19 @@
                     <p><a href="https://www.facebook.com/Thirtythreehouse/" target="_blank"><img src="/img/FB.png"
                                 alt="Facebook link"></a>
                     </p>
-                    <p><a href="#" target="_blank"><img src="/img/TW.png" alt="Twietter link"></a></p>
+                    <p><a href="https://twitter.com/ThirtythreeH" target="_blank"><img src="/img/TW.png"
+                                alt="Twietter link"></a></p>
                     <p><a href="https://www.instagram.com/thirtythreehouse/" target="_blank"><img src="/img/IG.png"
                                 alt="Intagram link"></a>
                     </p>
-                    <p><a href="#" target="_blank"><img src="/img/WA.png" alt="Whatsapp link"></a></p>
-                    <p><a href="#" target="_blank"><img src="/img/LI.png" alt="LinkeIn link"></a></p>
+                    <p><a href="https://wa.me/201033739707" target="_blank"><img src="/img/WA.png"
+                                alt="Whatsapp link"></a></p>
+                    <p><a href="https://www.linkedin.com/company/thirtythreehouse" target="_blank"><img
+                                src="/img/LI.png" alt="LinkeIn link"></a></p>
                 </div>
             </div>
 
-            <div><img src="/img/logo-33-BLACK-PNG-800800.png" alt="Thirty Three Logo"></div>
+            <div class="footer-logo"><img src="/img/logo-33-BLACK-PNG-800800.png" alt="Thirty Three Logo"></div>
             <div class="fix"></div>
         </div>
     </footer>

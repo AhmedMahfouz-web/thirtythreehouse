@@ -47,8 +47,9 @@
 
 
         <input type="checkbox" id="privacy" name="privacy">
-        <label for="privacy" class="privacy-text"> @lang("site.read") <span class="blue">@lang("site.privacy_policy")</span> @lang("site.agree")</label><br>
-        <a href="https://google.com" class="btn" id="whatsapp" target='_blank'><img src="/img/whatsapp.png"
+        <label for="privacy" class="privacy-text"> @lang("site.read") <span
+                class="blue">@lang("site.privacy_policy")</span> @lang("site.agree")</label><br>
+        <a href="https://wa.me/201033739707" class="btn" id="whatsapp" target='_blank'><img src="/img/whatsapp.png"
                 alt="whatsapp"></a>
     </div>
     <div class="grid-container">

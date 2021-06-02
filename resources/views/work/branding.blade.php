@@ -3,7 +3,7 @@
 @section('css')
 <link rel="stylesheet" href="/css/work.css">
 
-@if (app()->getLocale())
+@if (app()->getLocale() == 'ar')
 <link rel="stylesheet" href="/css/work_ar.css">
 @endif
 

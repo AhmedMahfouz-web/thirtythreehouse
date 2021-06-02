@@ -8,17 +8,27 @@
 
 .content-contact p{
     font-size: 1.6em;
-    margin: 5px 0;
+    margin: 10px 0;
     font-family: 'DM Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: ltr;
 }
 
-p i{
-    font-weight: normal;
-    margin-top: 15px;
+.content-contact p a{
+    display: flex;
+    align-items: center;
+    color: #111111;
 }
 
-p .ri-whatsapp-line{
-    color: rgb(57, 185, 57);
+p a{
+    text-decoration: none;
+}
+
+p img{
+    width: 30px;
+    margin: 0 5px;
 }
 
 .content-contact .links{

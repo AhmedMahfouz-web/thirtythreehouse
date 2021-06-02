@@ -3,9 +3,9 @@
 @section('content')
 
 <div class="owl-carousel">
-    <div><img src="img/slider-1-op.jpg" alt=""></div>
-    <div><img src="img/slider-2-op.jpg" alt=""></div>
-    <div><img src="img/slider-3-op.jpg" alt=""></div>
+    <div class="owl-div"><img src="img/UI-slider.png" alt=""></div>
+    <div class="owl-div"><img src="img/UI-slider.png" alt=""></div>
+    <div class="owl-div"><img src="img/UI-slider.png" alt=""></div>
 </div>
 <div class="fix"></div>
 
@@ -83,11 +83,11 @@
     </div>
 </div>
 
-<div class="grid-container">
+{{-- <div class="grid-container">
     <div class="grid-header">
-        <h1>@lang('site.our_work')</h1>
-        {{-- <a href="/works">See More</a> --}}
-        <div class="btns">
+        <h1>@lang('site.our_work')</h1> --}}
+{{-- <a href="/works">See More</a> --}}
+{{-- <div class="btns">
             <button class="prev disabled" disabled id="prev-work"><i class="ri-arrow-left-s-line"></i></button>
             <button class="next" id="next-work"><i class="ri-arrow-right-s-line"></i></button>
         </div>
@@ -118,21 +118,22 @@
                 <p>@lang('site.motion')</p>
             </a>
         </div>
-        <div class="grid-item grid-work">
+        <div class="grid-item grid-work grid-work-web">
             <a href="/work/web">
                 <img src="img/web-works.jpg" alt="">
                 <p>@lang('site.web')</p>
             </a>
-        </div>
-        <div class="grid-item">
+        </div> --}}
+{{-- <div class="grid-item">
             <div class="grid-item grid-work">
-                <img src="img/digital-works.jpg" alt="">
-                <p>@lang('site.digital')</p>
+                <a href="/work/content">
+                    <img src="img/digital-works.jpg" alt="">
+                    <p>@lang('site.digital')</p>
                 </a>
             </div>
-        </div>
-    </div>
-</div>
+        </div> --}}
+{{-- </div>
+</div> --}}
 
 
 @endsection

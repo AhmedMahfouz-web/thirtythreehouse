@@ -28,6 +28,7 @@ header #icon{
     top: 50%;
     left: 5%;
     transform: translate(0%, -50%);
+    width: fit-content;
 }
 
 header .hamburger{
@@ -192,8 +193,23 @@ nav #services p, nav #work p{
     height: 100%;
 }
 
-.owl-carousel div img{
+.owl-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-carousel .owl-div {
     height: 40vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.owl-carousel div img{
+    height: 100%;
 }
 
 .owl-nav{
@@ -223,6 +239,8 @@ nav #services p, nav #work p{
 .owl-dots{
     text-align: center;
     position: absolute;
+    height: auto !important;
+    display: block;
     margin: 0;
     bottom: 5%;
     left: 50%;
@@ -249,7 +267,7 @@ nav #services p, nav #work p{
 
 .grid-container{
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     width: 90%;
     box-sizing: border-box;
 }
@@ -310,16 +328,17 @@ nav #services p, nav #work p{
 
 .grid-item .img{
     width: 100%;
-    height: 130px !important;
+    height: 140px !important;
     overflow: hidden;
     box-sizing: border-box;
     display: flex;
     align-items: flex-end;
+    justify-content: center;
 }
 
 .grid-item img{
     width: 100%;
-    box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.603);
+    border-radius: 20px;
 }
 
 .grid-services img{
@@ -331,6 +350,14 @@ nav #services p, nav #work p{
 .grid-services img{
     filter: grayscale(60%);
     transition: 0.5s;
+}
+
+.grid-services .branding-img{
+    width: 85%;
+}
+
+.grid-services .packaging-img{
+    width: 90%;
 }
 
 .grid-services a:hover img{
@@ -351,7 +378,11 @@ nav #services p, nav #work p{
 }
 
 .grid-work p{
-    font-size: 1.5em;
+    font-size: 1.1em;
+}
+
+.grid-work img{
+    box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.603);
 }
 
 .grid-services .name{
@@ -587,14 +618,6 @@ footer img{
         font-size: 1.15em;
     }
     
-    .owl-carousel{
-        height: 350px;
-    }
-   
-    .owl-carousel div img{
-        height: 350px !important;
-    }
-
     .owl-prev{
         width: 10%;
     }
@@ -681,8 +704,9 @@ footer img{
         padding-left: 5%;
         padding-right: 5%;
         display: grid;
-        grid-template-columns: 31.33% 31.33% 31.33%;
+        grid-template-columns: 47% 47%;
         grid-column-gap: 3%;
+        justify-content: center;
     }
 
     footer .footer-contact{
@@ -698,6 +722,25 @@ footer img{
     footer .footer-contact img{
         width: 40px;
     }
+    footer div{
+        width: auto;
+    }
+
+}
+
+@media only screen and (min-width: 1210px){
+
+    .owl-carousel{
+        height: 50vh;
+    }
+    .owl-carousel .owl-div {
+        height: 50vh !important;
+        width: 100%;
+    }
+    .owl-carousel div img{
+        min-width: 100%;
+    }
+        
 
 }
 

@@ -21,25 +21,25 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/work/branding', function () {
-    return view('work.branding');
-});
+// Route::get('/work/branding', function () {
+//     return view('work.branding');
+// });
 
-Route::get('/work/ui', function () {
-    return view('work.ui');
-});
+// Route::get('/work/ui', function () {
+//     return view('work.ui');
+// });
 
-Route::get('/work/packaging', function () {
-    return view('work.packaging');
-});
+// Route::get('/work/packaging', function () {
+//     return view('work.packaging');
+// });
 
-Route::get('/work/motion', function () {
-    return view('work.motion');
-});
+// Route::get('/work/motion', function () {
+//     return view('work.motion');
+// });
 
-Route::get('/work/web', function () {
-    return view('work.web');
-});
+// Route::get('/work/web', function () {
+//     return view('work.web');
+// });
 
 Route::get('/about', function () {
     return view('pages.about');

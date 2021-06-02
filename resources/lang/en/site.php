@@ -64,13 +64,69 @@ return[
 
     "privacy_policy" => "Privacy & Policy",
 
-    "privacy" => "",
+    "privacy" => "-عند الموافقة على هذه الشروط من الخدمة، فأنت تقر بأنك كامل الاهلية في الدولة المقيم فيها.
+    <br>-لا يحق لك إضافة خدمات أخرى على نفس الطلب الا في حالة موافقة الشركة
+    <br>-يتم الاتفاق على مبلغ مادي مقابل الخدمات المتفق عليها على ان يتم تحصيل 50% في البداية تعتبر جدية للتعاقد وللالتزام بالعقد
+    <br>-يمكن للمبلغ المادي ان يكون بالعملة المحلية او الأجنبية وذلك بموجب الاختيار
+    <br>-في حالة قمت بفسخ العقد بدون أسباب مقنعة للشركة بعد بدأ العمل يعتبر المبلغ المدفوع كشرط جزائي
+    <br>- تلتزم الشركة بأداء الاعمال المسندة اليها تبعاً للاتفاق وان تحفظ اسرار العمل كاملة.
+    <br>-يتم الاتفاق على المدة قبل البدء في العمل
+    <br>-اذا تأخرت الشركة عن ميعاد التسليم لمدة اكثر من 10% من الوقت المتفق عليه يتم خصم 10% من المبلغ المتبقي
+    <br>-اذا تأخرت الشركة عن ميعاد التسليم لمدة اكثر من 40% من الوقت المتفق عليه يتم خصم 50% من المبلغ المتبقي
+    <br>-اذا تأخرت الشركة عن ميعاد التسليم لمدة اكثر من 70% من الوقت المتفق عليه يحق لك فسخ العقد واسترداد المبلغ في حالة عدم البدء في العمل
+    <br>-تتعهد الشركة بتسليم النسخة المتفق عليه كاملة وغير مشفرة
+    <br>-لا يجوز لك استخدام منتجاتنا في أي أعمال غير قانونية أو غير مصرح بها ولا يجوز لك استخدام الخدمة، تنتهك أي قوانين في بلدك (بما في ذلك قوانين حقوق النشر).
+    <br>-يجوز للعميل فقط استخدام وعرض العمل/الخدمة النهائية والتي وافق عليه، جميع المسودات أو أي شكل من أشكال العمل السابقة التي لم يوافق العميل عليها لا يمكن استخدامها من قبل العميل بأي شكل من الأشكل، تحت أي ظرف من الظروف.
+    ",
 
     "read" => "I have read",
     "agree" => "and I agree with it",
 
     "service_contain" => "Service contains",
     "additional_options" => "Additional Options",
+
+
+    "motion-contain" => "- illustration
+    <br>- motion graphics
+    <br>- sound effects
+    <br>- background music",
+    "motion-additional" => "- Script writing
+    <br>- Custom illustration
+    <br>- voice over
+    <br>- Digital marketing",
+
+    "web-contain" => "- Product & Service Websites
+    <br>- e-commerce websites
+    <br>- Front and Back-end Development
+    <br>- Responsive design",
+    "web-additional" => "- UI&UX
+    <br>- Content Strategy
+    <br>- Dashboard (Admin Panel)
+    <br>- SEO",
+
+    "packaging-contain" => "- Diecut
+    <br>- Packaging Design
+    <br>- Inculde all assets
+    <br>- Ready to print",
+    "packaging-additional" => "- Mockup preview
+    <br>- 3D product
+    <br>- Digital marketing",
+
+    "ui-contain" => "- Website User interface & Experince
+    <br>- Mobile App User interface & Experince
+    <br>- High resolution PNG design",
+    "ui-additional" => "- XD file source
+    <br>- All assets
+    <br>- Web development",
+
+    "digital-contain" => "- Content Creation
+    <br>- Script writing
+    <br>- Digital marketing anlysis
+    <br>- Social media platform Reports",
+    "digital-additional" => "- Social media posters
+    <br>- Social media ADS
+    <br>- Motion Graphics
+    <br>- Social media management",
 
 
 ]

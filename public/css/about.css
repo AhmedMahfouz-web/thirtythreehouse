@@ -7,6 +7,8 @@
 }
 .content-about h1{
     margin: 20px 5%;
+    text-transform: uppercase;
+    font-family: 'FreightSansProBold';
 }
 
 .content-about p{
@@ -25,6 +27,13 @@
     width: 100%;
 }
 
+footer .content-footer{
+    width: 100%;
+}
+
+footer .footer-about{
+    display: none;
+}
 
 @media only screen and (min-width: 768px){
     .content-about .img-about{
