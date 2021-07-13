@@ -54,7 +54,7 @@
 
                 <div class="lang">
                     @if (app()->getLocale() == 'ar')
-                    <a href="/locale/en"><img src="/img/saudi_arabia.png" alt="AR" title="Arabic"></a>
+                    <a href="/locale/en"><img src="/img/ar.png" alt="AR" title="Arabic"></a>
                     @else
                     <a href="/locale/ar"><img src="/img/england.png" alt="EN" title="English"></a>
                     @endif
@@ -111,6 +111,8 @@
 
     <footer>
         <div class="content content-footer">
+            <div class="footer-logo"><img src="/img/logo-33-BLACK-PNG-800800.png" alt="Thirty Three Logo"></div>
+
 
             <div class="footer-contact">
                 <h4>@lang('site.contact')</h4>
@@ -130,8 +132,6 @@
                 </div>
             </div>
 
-            <div class="footer-logo"><img src="/img/logo-33-BLACK-PNG-800800.png" alt="Thirty Three Logo"></div>
-            <div class="fix"></div>
         </div>
     </footer>
     <p class="rights">All Rights Reserved <a href="/">Thirtythreehouse.com</a> &copy;

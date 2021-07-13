@@ -189,6 +189,10 @@
     filter: grayscale(0%);
 }
 
+.whatsapp-div{
+    margin-top: 40px;
+}
+
 .grid-container{
     margin-top: 75px;
 }

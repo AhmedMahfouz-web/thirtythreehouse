@@ -30,19 +30,20 @@
             <li>@lang('site.digital-contain')</li>
         </ul>
         <h2>@lang("site.additional_options"):</h2>
-        <input type="checkbox" id="fo" name="fo" value="Guidlines" price="50">
-        <label for="fo"> Guidlines <span class="price">(+50 $)</span></label><br>
-        <input type="checkbox" id="so" name="so" value="Motion" price="30">
-        <label for="so"> Motion intro <span class="price">(+30 $)</span></label><br>
-        <input type="checkbox" id="to" name="to" value="Identity" price="50">
-        <label for="to"> Visual identity <span class="price">(+50 $)</span></label><br>
+        <input type="checkbox" id="fo" name="fo" value="digital-1" price="50">
+        <label for="fo"> @lang('site.digital-add-1')</label><br>
+        <input type="checkbox" id="so" name="so" value="digital-2" price="30">
+        <label for="so"> @lang('site.digital-add-2')</label><br>
+        <input type="checkbox" id="to" name="to" value="digital-3" price="50">
+        <label for="to"> @lang('site.digital-add-3')</label><br>
 
-
-        <input type="checkbox" id="privacy" name="privacy">
-        <label for="privacy" class="privacy-text"> @lang("site.read") <span
-                class="blue">@lang("site.privacy_policy")</span> @lang("site.agree")</label><br>
-        <a href="https://wa.me/201033739707" class="btn" id="whatsapp" target='_blank'><img src="/img/whatsapp.png"
-                alt="whatsapp"></a>
+        <div class="whatsapp-div">
+            <input type="checkbox" id="privacy" name="privacy">
+            <label for="privacy" class="privacy-text"> @lang("site.read") <span
+                    class="blue">@lang("site.privacy_policy")</span> @lang("site.agree")</label><br>
+            <a href="https://wa.me/201033739707" class="btn" id="whatsapp" target='_blank'><img src="/img/whatsapp.png"
+                    alt="whatsapp"></a>
+        </div>
     </div>
 </div>
 @endsection

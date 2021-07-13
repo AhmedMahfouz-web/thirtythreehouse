@@ -90,44 +90,51 @@ return[
     <br>- motion graphics
     <br>- sound effects
     <br>- background music",
-    "motion-additional" => "- Script writing
-    <br>- Custom illustration
-    <br>- voice over
-    <br>- Digital marketing",
+    "motion-add-1" => "Script writing",
+    "motion-add-2" => "Custom illustration",
+    "motion-add-3" => "voice over",
+    "motion-add-4" => "Digital marketing",
 
     "web-contain" => "- Product & Service Websites
     <br>- e-commerce websites
     <br>- Front and Back-end Development
     <br>- Responsive design",
-    "web-additional" => "- UI&UX
-    <br>- Content Strategy
-    <br>- Dashboard (Admin Panel)
-    <br>- SEO",
+    "web-add-1" => "UI&UX",
+    "web-add-2" => "Content Strategy",
+    "web-add-3" => "Dashboard (Admin Panel)",
+    "web-add-4" => "SEO",
 
     "packaging-contain" => "- Diecut
     <br>- Packaging Design
     <br>- Inculde all assets
     <br>- Ready to print",
-    "packaging-additional" => "- Mockup preview
-    <br>- 3D product
-    <br>- Digital marketing",
+    "packaging-add-1" => "- Mockup preview",
+    "packaging-add-2" => "- 3D product",
+    "packaging-add-3" => "- Digital marketing",
 
     "ui-contain" => "- Website User interface & Experince
     <br>- Mobile App User interface & Experince
     <br>- High resolution PNG design",
-    "ui-additional" => "- XD file source
-    <br>- All assets
-    <br>- Web development",
+    "ui-add-1" => "XD file source",
+    "ui-add-2" => "All assets",
+    "ui-add-3" => "Web development",
 
     "digital-contain" => "- Content Creation
     <br>- Script writing
     <br>- Digital marketing anlysis
     <br>- Social media platform Reports",
-    "digital-additional" => "- Social media posters
-    <br>- Social media ADS
-    <br>- Motion Graphics
-    <br>- Social media management",
+    "digital-add-1" => "Social media posters",
+    "digital-add-2" => "Social media ADS",
+    "digital-add-3" => "Motion Graphics",
+    "digital-add-4" => "Social media management",
 
-
+    "branding-contain" => "- Logo design
+    <br>- Explain the concept & idea
+    <br>- Font type
+    <br>- Color palette
+    <br>- Logo pattern",
+    "branding-add-1" => "Guidelines",
+    "branding-add-2" => "Motion intro",
+    "branding-add-3" => "Visual identity",
 ]
 ?>

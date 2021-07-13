@@ -3,9 +3,10 @@
 @section('content')
 
 <div class="owl-carousel">
-    <div class="owl-div"><img src="img/UI-slider.png" alt=""></div>
-    <div class="owl-div"><img src="img/UI-slider.png" alt=""></div>
-    <div class="owl-div"><img src="img/UI-slider.png" alt=""></div>
+    <div class="owl-div"><img loading="lazy" src="img/slider1.png" alt=""></div>
+    <div class="owl-div"><img loading="lazy" src="img/slider2.png" alt=""></div>
+    <div class="owl-div"><img loading="lazy" src="img/slider3.png" alt=""></div>
+    <div class="owl-div"><img loading="lazy" src="img/slider4.png" alt=""></div>
 </div>
 <div class="fix"></div>
 
@@ -23,7 +24,7 @@
         <div class="grid-item grid-services">
             <a href="/services/branding">
                 <div class="img">
-                    <img class="branding-img" src="img/branding-icon.png" alt="">
+                    <img loading="lazy" class="branding-img" src="img/branding-icon.png" alt="">
                 </div>
                 <p class="name">@lang('site.branding')</p>
                 <p class="breif">@lang('site.branding_intro_services')</p>
@@ -33,7 +34,7 @@
         <div class="grid-item grid-services">
             <a href="/services/ui">
                 <div class="img">
-                    <img src="img/ui&ux-icon.png" alt="">
+                    <img loading="lazy" src="img/ui&ux-icon.png" alt="">
                 </div>
                 <p class="name">@lang('site.ui')</p>
                 <p class="breif">@lang('site.ui_intro_services')</p>
@@ -43,7 +44,7 @@
         <div class="grid-item grid-services">
             <a href="/services/packaging">
                 <div class="img">
-                    <img class="packaging-img" src="img/packaging-icon.png" alt="">
+                    <img loading="lazy" class="packaging-img" src="img/packaging-icon.png" alt="">
                 </div>
                 <p class="name">@lang('site.packaging')</p>
                 <p class="breif">@lang('site.packaging_intro_services')</p>
@@ -53,7 +54,7 @@
         <div class="grid-item grid-services">
             <a href="/services/motion">
                 <div class="img">
-                    <img src="img/motion-graphics-icon.png" alt="">
+                    <img loading="lazy" src="img/motion-graphics-icon.png" alt="">
                 </div>
                 <p class="name">@lang('site.motion')</p>
                 <p class="breif">@lang('site.motion_intro_services')</p>
@@ -63,7 +64,7 @@
         <div class="grid-item grid-services">
             <a href="/services/web">
                 <div class="img">
-                    <img src="img/web-development-icon.png" alt="">
+                    <img loading="lazy" src="img/web-development-icon.png" alt="">
                 </div>
                 <p class="name">@lang('site.web')</p>
                 <p class="breif">@lang('site.web_intro_services')</p>
@@ -73,7 +74,7 @@
         <div class="grid-item grid-services">
             <a href="/services/content-creation">
                 <div class="img">
-                    <img src="img/digital-marketing-icon.png" alt="">
+                    <img loading="lazy" src="img/digital-marketing-icon.png" alt="">
                 </div>
                 <p class="name">@lang('site.digital')</p>
                 <p class="breif">@lang('site.digital_intro_services')</p>
@@ -96,38 +97,38 @@
     <div class="grid">
         <div class="grid-item grid-work">
             <a href="/work/branding">
-                <img src="img/branding-works.jpg" alt="">
+                <img loading="lazy" src="img/branding-works.jpg" alt="">
                 <p>@lang('site.branding')</p>
             </a>
         </div>
         <div class="grid-item grid-work">
             <a href="/work/ui">
-                <img src="img/ui-works.jpg" alt="">
+                <img loading="lazy" src="img/ui-works.jpg" alt="">
                 <p>@lang('site.ui')</p>
             </a>
         </div>
         <div class="grid-item grid-work">
             <a href="/work/packaging">
-                <img src="img/packaging-works.jpg" alt="">
+                <img loading="lazy" src="img/packaging-works.jpg" alt="">
                 <p>@lang('site.packaging')</p>
             </a>
         </div>
         <div class="grid-item grid-work">
             <a href="/work/motion">
-                <img src="img/motion-works.jpg" alt="">
+                <img loading="lazy" src="img/motion-works.jpg" alt="">
                 <p>@lang('site.motion')</p>
             </a>
         </div>
         <div class="grid-item grid-work grid-work-web">
             <a href="/work/web">
-                <img src="img/web-works.jpg" alt="">
+                <img loading="lazy" src="img/web-works.jpg" alt="">
                 <p>@lang('site.web')</p>
             </a>
         </div> --}}
 {{-- <div class="grid-item">
             <div class="grid-item grid-work">
                 <a href="/work/content">
-                    <img src="img/digital-works.jpg" alt="">
+                    <img loading="lazy" src="img/digital-works.jpg" alt="">
                     <p>@lang('site.digital')</p>
                 </a>
             </div>

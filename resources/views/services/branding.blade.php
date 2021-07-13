@@ -27,32 +27,29 @@
         <p class="about">@lang('site.branding_intro')</p>
         <h2>@lang("site.service_contain"):</h2>
         <ul>
-            <li>- Logo design</li>
-            <li>- Explain the concept & idea</li>
-            <li>- Font type</li>
-            <li>- Color palette</li>
-            <li>- Logo pattern</li>
+            <li>@lang('site.branding-contain')</li>
         </ul>
         <h2>@lang("site.additional_options"):</h2>
-        <input type="checkbox" id="fo" name="fo" value="Guidlines" price="50">
-        <label for="fo"> Guidlines</label><br>
-        <input type="checkbox" id="so" name="so" value="Motion" price="30">
-        <label for="so"> Motion intro</label><br>
-        <input type="checkbox" id="to" name="to" value="Identity" price="50">
-        <label for="to"> Visual identity</label><br>
+        <input type="checkbox" id="fo" name="fo" value="branding-1" price="50">
+        <label for="fo"> @lang('site.branding-add-1')</label><br>
+        <input type="checkbox" id="so" name="so" value="branding-2" price="30">
+        <label for="so"> @lang('site.branding-add-2')</label><br>
+        <input type="checkbox" id="to" name="to" value="branding-3" price="50">
+        <label for="to"> @lang('site.branding-add-3')</label><br>
         {{-- <div>
             <p class="old-price" id="old-price">215</p>
             <p class="current-price" id="current-price">120</p> <span class="dollar">$</span>
         </div> --}}
 
-
-        <input type="checkbox" id="privacy" name="privacy">
-        <label for="privacy" class="privacy-text"> @lang("site.read") <span
-                class="blue">@lang("site.privacy_policy")</span> @lang("site.agree")</label><br>
-        <a href="https://wa.me/201033739707" class="btn" id="whatsapp" target='_blank'><img src="/img/whatsapp.png"
-                alt="whatsapp"></a>
+        <div class="whatsapp-div">
+            <input type="checkbox" id="privacy" name="privacy">
+            <label for="privacy" class="privacy-text"> @lang("site.read") <span
+                    class="blue">@lang("site.privacy_policy")</span> @lang("site.agree")</label><br>
+            <a href="https://wa.me/201033739707" class="btn" id="whatsapp" target='_blank'><img src="/img/whatsapp.png"
+                    alt="whatsapp"></a>
+        </div>
     </div>
-    <div class="grid-container">
+    {{-- <div class="grid-container">
         <div class="grid-header">
             <h1>Some Works</h1>
         </div>
@@ -78,7 +75,7 @@
                 <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,</p>
             </div>
         </div>
-    </div>
+    </div> --}}
 </div>
 @endsection
 
