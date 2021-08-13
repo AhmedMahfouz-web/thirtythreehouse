@@ -21,7 +21,7 @@
     @yield('css')
 
     @if (app()->getLocale() == 'ar')
-    <link rel="stylesheet" href="/css/style_ar.css">
+        <link rel="stylesheet" href="/css/style_ar.css">
     @endif
 
 
@@ -36,14 +36,11 @@
         gtag('js', new Date());
 
         gtag('config', 'G-ZD3PLDP2KK');
-
     </script>
 
 </head>
 
-<body id="body" @if (app()->getLocale() == 'ar')
-    data="ar"
-    @endif>
+<body id="body" @if (app()->getLocale() == 'ar') data="ar" @endif>
 
     <header>
         <div class="content">
@@ -54,9 +51,9 @@
 
                 <div class="lang">
                     @if (app()->getLocale() == 'ar')
-                    <a href="/locale/en"><img src="/img/ar.png" alt="AR" title="Arabic"></a>
+                        <a href="/locale/en"><img src="/img/ar.png" alt="AR" title="Arabic"></a>
                     @else
-                    <a href="/locale/ar"><img src="/img/england.png" alt="EN" title="English"></a>
+                        <a href="/locale/ar"><img src="/img/england.png" alt="EN" title="English"></a>
                     @endif
                 </div>
 
