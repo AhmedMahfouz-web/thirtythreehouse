@@ -90,7 +90,7 @@ const updateLink = () => {
         }
     }
     if (extra != null || extra != '') {
-        message = beginning + '%20with: %0D%0A' + extra;
+        message = beginning + '%20with: ' + extra;
     } else {
         message = beginning;
     }
