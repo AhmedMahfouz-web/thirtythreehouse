@@ -30,7 +30,7 @@
                 <li>@lang('site.web-contain')</li>
             </ul>
             <h2>@lang("site.additional_options"):</h2>
-            <input type="checkbox" class="check-box" id="fo" name="fo" value="<br>-UI&UX" price="50">
+            <input type="checkbox" class="check-box" id="fo" name="fo" value="<br>-UI%26UX" price="50">
             <label for="fo"> @lang('site.web-add-1')</label><br>
             <input type="checkbox" class="check-box" id="so" name="so" value="<br>-Content Strategy" price="30">
             <label for="so"> @lang('site.web-add-2')</label><br>

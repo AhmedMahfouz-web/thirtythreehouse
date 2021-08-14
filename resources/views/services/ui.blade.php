@@ -23,7 +23,7 @@
         <div class="header header-ui">
             <h1>@lang('site.ui')</h1>
         </div>
-        <div class="offer" id="offer" data-service='UI & UX'>
+        <div class="offer" id="offer" data-service='UI %26 UX'>
             <p class="about">@lang('site.ui_intro')</p>
             <h2>@lang("site.service_contain"):</h2>
             <ul>
